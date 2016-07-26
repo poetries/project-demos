@@ -31,7 +31,7 @@ PukeCard.prototype = {
 				}
 			}
 		}
-		this.shuffle();
+		this.shuffle();//洗牌
 		console.log(this.cards);
 		console.log(this.cards.length);
 	},
@@ -44,35 +44,16 @@ PukeCard.prototype = {
 	},
 	//发牌的方法
    sendCard:function(){
+		if(this.cards.length ==0){
+			this.init();
+		}
 		return this.cards.pop();
-   }
+
+	}
 	
 };
 
-var puke = new PukeCard(1);
 
-window.onload = function(){
-
-	for(var i=0;i<puke.cards.length;i++){
-		var img = document.createElement("img");
-		img.src = puke.cards[i].src;
-		document.body.appendChild(img);
-	}
-	document.body.appendChild(document.createElement("hr"));
-	var card = puke .sendCard();
-	var img = document.createElement("img");
-	img.src = card.src;
-	document.body.appendChild(img);
-
-	document.body.appendChild(document.createElement("hr"));
-
-	for(var i=0;i<puke.cards.length;i++){
-		var img = document.createElement("img");
-		img.src = puke.cards[i].src;
-		document.body.appendChild(img);
-	}
-	
-}
 
 //玩家对象
 
@@ -84,18 +65,32 @@ function Player(name){
 
 Player.prototype = {
 	//收到一张牌
-	putCard : function(){
+	putCard : function(card){
 		this.cards.push(card);//往数组中加牌
 	},
 	//获得当前的总点数 返回去
 	getPoint : function(flag){
 		//true 代表的是给出明牌的点数（给comp用）
+		/*
 		if(flag){
-			
+			var sum = 0;//总共的点数
+			for(var i=1;this.cards.length;i++){
+				sum += this.cards[i].point;
+			}
 		}else{//flase 代表的是给出所有牌的点数（这个给game用）
-			
+			for(var i=0;this.cards.length;i++){
+				sum += this.cards[i].point;
+			}			
 		}
-		return 0;
+		*/
+	
+		if(flag){
+			var sum = 0;//总共的点数
+			for(var i=(flag?1:0);i<this.cards.length;i++){
+				sum += this.cards[i].point;
+			}
+		}	
+		return sum;
 	},
 	//是否要牌方法 抽象方法 人脑和电脑判断逻辑不同 返回true 要
 	isNeedCard :function(){
@@ -130,3 +125,83 @@ Comp.extends(Player,{
 });
 
 
+Function Game21Point(user,compCount,pukeCount){
+	this.user = user;
+	this.compCount = compCount;
+	this.players = [];//所有的玩家都在这里
+	this.puke = new PukeCard(pukeCount);
+	this.init();
+}
+
+Game21Point.prototype = {
+	init:function(){
+		this.players.push(this.user);
+		for(var i=0;i<compCount;i++){
+			this.players.push(new Comp("电脑"+(i+1)));
+		}
+	},
+	play:function(){
+		for(var i=0;i<this.players.length;i++){//循环下来每个人发了两张牌
+			this.players[i].putCard(this.puke.sendCard());//this.puke.sendCard()把发牌的结果放在this.players[i]中 暗牌
+			this.players[i].putCard(this.puke.sendCard());//第2张牌 明牌
+		}
+	},
+	round:function(isNeed){
+		isNeed = this.players[0].isNeedCard(isNeed);//this.players[0]  用户
+		if(isNeed){//用户是否还要牌
+			this.players[0].putCard(this.puke.sendCard());
+		}
+		for(var i=1;i<this.players.length;i++){//电脑是否需要发牌
+			if(this.players[i].isNeedCard(this.players[0].getPoint(true))){//传入用户明牌点数 true 代表的是给出明牌的点数（给comp用）
+				this.players[i].putCard(this.puke.sendCard());
+			}
+		}		
+	}
+
+	
+};
+
+//测试扑克牌的功能
+/*
+window.onload = function(){
+var puke = new PukeCard(1);
+	for(var i=0;i<puke.cards.length;i++){
+		var img = document.createElement("img");
+		img.src = puke.cards[i].src;
+		document.body.appendChild(img);
+	}
+	document.body.appendChild(document.createElement("hr"));
+	var card = puke .sendCard();
+	var img = document.createElement("img");
+	img.src = card.src;
+	document.body.appendChild(img);
+
+	document.body.appendChild(document.createElement("hr"));
+
+	for(var i=0;i<puke.cards.length;i++){
+		var img = document.createElement("img");
+		img.src = puke.cards[i].src;
+		document.body.appendChild(img);
+	}
+	
+}
+*/
+
+
+//特殊返回的点数
+/*
+window.onload = function(){
+
+	var puke = new PukeCard(1);
+	var card =puke.sendCard();
+	var xiaoming = new User("小明");
+	xiaoming.putCard(card);
+	card =puke.sendCard();
+	console.log(card);
+	xiaoming.putCard(card);
+	card =puke.sendCard();
+	console.log(card);
+	xiaoming.putCard(card);
+	console.log(xiaoming.getPoint(true));
+}
+*/
