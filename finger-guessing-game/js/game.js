@@ -79,6 +79,7 @@ Game.prototype.toggleButton = function(){
 	}else{
 		btn.disabled = true;
 		btn.className = "disabled";
+		btn.innerHTML = "游戏进行中";
 	}
 }
 
