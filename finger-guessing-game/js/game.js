@@ -46,7 +46,7 @@ function Game(u,c){
 
 Game.prototype.init = function(){
 	var names = document.getElementsByClassName("name");
-	names[0].innerHTML = "我:"+this.user.name;
+	names[0].innerHTML = "您:"+this.user.name;
 	names[1].innerHTML = "电脑:"+this.comp.name;
 	
 }
@@ -120,7 +120,7 @@ Game.prototype.verdict = function(point){
 	var res = this.user.point - this.comp.point;
 	switch(res){
 		case 0:
-			this.changeText("平局");
+			this.changeText("打成平手");
 			break;
 		case 1:
 		case -2:
@@ -128,7 +128,7 @@ Game.prototype.verdict = function(point){
 			break;
 	    case -1:
 		case 2:
-			this.changeText("嘻嘻~我赢了");
+			this.changeText("恭喜您~您赢了");
 			break;
 	}
 	this.toggleButton();
