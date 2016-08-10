@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei";
+}
+
+html,
+body{
+	width:100%;
+	height:100%;
+}
+
+
+/*common style start*/
+div.content{
+	width:1200px;
+	margin:0 auto;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+
+
+/*common style end*/
+
+
+/* nav style start*/
+
+#nav{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	background-color:#15171F;
+	min-width:1200px;/*最小分辨率不低于1200px*/
+}
+
+#nav div.content{
+	height:100%;
+	color:#fff;
+}
+
+#nav div.content img.logo{
+	float:left;
+	margin-top:16px;
+	margin-right:80px;
+}
+
+
+#nav div.content ul.menu li{
+	float:left;
+
+}
+
+#nav div.content ul li a{
+	color:#fff;
+	font-size:14px;
+	padding:0 20px;
+	margin:0 5px;
+	height:100%;
+	display:block;
+	position:relative;
+}
+
+#nav div.content div.msg{
+	height: 100%;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    float: right;
+}
+#nav div.content div.msg a.email{
+	width: 22px;
+    height: 16px;
+    display: block;
+    background-image: url("../images/pe_icon.png");
+    background-repeat: no-repeat;
+    background-position: -368px -23px;
+    margin: 26px auto;
+    position: relative;
+}
+#nav div.content div.msg a.email em{
+	width:7px;
+	height:7px;
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	border-radius:5px;
+	border: 1px solid #fff;
+	background-color:#ff0000;
+}
+
+#nav div.content ul li a:hover{
+	background-color:#323744;
+}
+#nav div.content div.msg:hover{
+	background-color:#323744;
+}
+
+#nav div.content ul.info{
+	float:right;
+	height: 100%;
+}
+
+
+
+#nav div.content  ul.info li a img.face{
+	border-radius: 30px;
+	position: relative;
+    top: 10px;
+}
+
+#nav div.content form div input{
+	height: 30px;
+    border: 1px solid #323744;
+    background-color: #323744;
+    border-radius: 2px;
+    margin-top: 18px;
+    padding-left: 10px;
+    color: #fff;
+    padding-right: 35px;
+}
+#nav div.content form div input:hover {
+    border: 1px solid #818997;
+}
+#nav div.content form div {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+#nav div.content form div a {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 1px;
+    top: 19px;
+    background-image: url("../images/pe_icon.png");
+    background-position: -365px 6px;
+}
+/* nav style end*/
