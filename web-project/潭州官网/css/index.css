@@ -198,6 +198,97 @@ div.cat div.content dl dd a:hover{
 
 /** course_list start**/
 
-
-
+div.course_list{
+}
+div.course_list ul li{
+	width:100%;
+	margin:20px 0;
+	float:left;
+}
+div.course_list ul li div{
+	width:222px;
+	height:185px;
+	margin:0 7px 20px 7px;
+	float:left;
+}
+div.course_list ul li div.first{
+	
+	text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+div.course_list ul li div.first h2{
+	padding-top: 50px;
+    font-weight: 500;
+    font-size: 24px;   
+}
+div.course_list ul li div.first p{
+	 line-height: 36px;
+}
+div.course_list ul li div.first a{
+	text-decoration: none;
+    color: #fff;
+}
+div.course_list ul li div.soft{
+	background: #5580fb;
+}
+div.course_list ul li div.profess{
+	background: #7784a9;
+}
+div.course_list ul li div.language{
+	background: #3faa77;
+}
+div.course_list ul li div.education{
+	background: #5580fb;
+}
+div.course_list ul li div.item{
+	position: relative;
+}
+div.course_list ul li div.item a{
+	text-align: center;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+div.course_list ul li div.item a:hover{
+	color: #5580fb;			
+}
+div.course_list ul li div.item div.mask{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 145px;
+    margin: 0px;
+    background-color: rgba(0,0,0,.6);
+    display: none;
+}
+div.course_list ul li div.item:hover div.mask{
+	display:block;
+}
+div.course_list ul li div.item div.mask a.btn{
+	width: 80px;
+    height: 30px;
+    background: #5580fb;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+}
+div.course_list ul li div.item div.mask p.title{
+	color: #fff;
+    font-size: 14px;
+    padding-top: 15px;
+}
+div.course_list ul li div.item div.mask p{
+	padding-left: 15px;
+    line-height: 24px;
+    color: #999;
+}
 /** course_list end**/
