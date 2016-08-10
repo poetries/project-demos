@@ -139,3 +139,65 @@ a{
     background-position: -365px 6px;
 }
 /* nav style end*/
+
+/* banner start */
+
+#banner{
+	width:100%;
+	height:375px;
+	background-image:url("../images/banner.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	min-width:1200px;/*分辨率最低1200px*/
+
+}
+/* banner end */
+
+
+/*cat start*/
+
+div.cat{
+	width:100%:
+	background-color:#fff;
+	height:110px;
+	border-bottom: 1px solid #d9dce1;
+}
+div.cat div.content dl{
+	width:216px;
+	height:80px;
+	float:left;
+	margin-left:20px;
+	margin-top:12px;
+	border-right: 1px solid #d9dce1;
+	
+}
+div.cat div.content dl.last{
+	border-right:none;
+}
+div.cat div.content dl dd{
+	float:left;
+	margin-right:20px;
+}
+
+div.cat div.content dl dt{
+	font-size:18px;
+	color: #5580fb;
+    font-weight: 500;
+    line-height: 36px;
+}
+div.cat div.content dl dd a{
+	color: #333;
+    text-decoration: none;
+    line-height: 20px;
+	font-size:12px;
+}
+div.cat div.content dl dd a:hover{
+    color: #5580fb;
+}
+/*cat end*/
+
+/** course_list start**/
+
+
+
+/** course_list end**/
