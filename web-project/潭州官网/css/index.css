@@ -15,6 +15,12 @@ body{
 div.content{
 	width:1200px;
 	margin:0 auto;
+	overflow: hidden;
+}
+div.container{
+	width:100%;
+	min-width:1200px;
+	background-color:#fff;
 }
 ul{
 	list-style:none;
@@ -293,3 +299,205 @@ div.course_list ul li div.item div.mask p{
     color: #999;
 }
 /** course_list end**/
+
+/**container start **/
+
+div.container div.content h2{
+	font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    color: #666;
+}
+#teachers{
+	height:322px;
+}
+#teachers ul li {
+    float: left;
+    width: 216px;
+    height: 66px;
+    margin: 30px 9px;
+}
+#teachers ul li a.face{
+	float:left;
+}
+#teachers ul li dl{
+	float:right;
+	width: 130px;
+    height: 66px;
+}
+#teachers ul li dl dt {
+    margin-bottom: 5px;
+}
+#teachers ul li dl dd {
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+}
+div.container div.content {
+    clear: both;
+}
+#students{
+	height:350px;
+}
+#students ul li{
+	width: 216px;
+    height: 280px;
+    margin-right: 22px;
+    float: left;
+    position: relative;
+}
+#students ul li div h3 {
+    padding: 15px 0 0 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#students ul li div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    display: none;
+}
+#students ul li:hover div{
+	display: block;
+}
+#students ul li div p {
+    padding: 20px;
+    line-height: 26px;
+	font-size:12px;
+}
+#students ul li div a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 30px;
+    background: #5580fb;
+    margin: 0 auto;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+#students {
+    padding-bottom: 30px;
+}
+
+#teachers, #students {
+    border-bottom: 1px solid #d9dce1;
+}
+
+#links{
+	height:130px;
+}
+#links ul li {
+    float: left;
+    padding: 0px 3px;
+    line-height: 28px;
+    color: #8e949f;
+}
+#links ul li a {
+    padding: 0 5px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #8e949f;
+    font-size: 14px;
+    display: inline-block;
+}
+#links {
+    padding-bottom: 40px;
+}
+/** container end **/
+
+/*footer start*/
+
+#footer {
+    width: 100%;
+    height: 410px;
+    background-color: #15171f;
+    color: #51555d;
+    position: relative;
+    text-align: center;
+}
+#footer div.content div.left {
+    margin-top: 50px;
+    float: left;
+}
+
+#footer div.content div.left dl {
+    float: left;
+    width: 75px;
+    margin-right: 60px;
+}
+#footer div.content div.left dl dt {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#footer div.content div.left dl dd a {
+    text-decoration: none;
+    color: #51555d;
+    line-height: 34px;
+    font-size: 14px;
+}
+#footer div.content div.left dl dd a.wb {
+    margin-right: 5px;
+    background-position: -227px -77px;
+}
+#footer div.content div.left dl dd a.icon {
+    background-image: url("../images/pe_icon.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 35px;
+    height: 34px;
+    display: block;
+}
+#footer div.content div.left dl dd a.wb:hover {
+    background-position: -227px -113px;
+}
+
+#footer div.content div.left dl dd a.qq:hover {
+    background-position: -265px -113px;
+}
+
+
+#footer div.content div.left dl dd a:hover {
+    color: #fff;
+}
+#footer div.content div.right p.phone {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px 0px;
+}
+#footer div.content div.right span {
+    display: block;
+    color: #51555d;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#footer div.content div.left dl dd a.qq {
+    background-position: -265px -77px;
+}
+
+#footer div.content div.right {
+    margin-top: 50px;
+    float: right;
+    margin-right: 200px;
+    text-align: center;
+}
+
+#footer div.content div.copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #333740;
+    font-size: 16px;
+    background-color: #191b24;
+}
+/*footer end */
