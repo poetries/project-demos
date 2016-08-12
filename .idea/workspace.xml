@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ea0a69b-4d1a-488e-be58-90c93aa2b065" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-project/潭州官网/index.html" />
+    <list default="true" id="1ea0a69b-4d1a-488e-be58-90c93aa2b065" name="Default" comment="change some files dir">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-project/潭州官网/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" afterPath="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/index.html" afterPath="$PROJECT_DIR$/web-project/腾讯课堂/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bg1.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bg1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/btns.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/btns.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/buss.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/buss.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/creditPop.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/creditPop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/cul-bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/cul-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/ewm.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/ewm.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-bot.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-bot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-small.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-top.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floral.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floral.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD7.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD8.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/florid.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/florid.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/hyzx.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/hyzx.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/jqkc.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/jqkc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/li-bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/li-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/list_bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/list_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/logo.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lyMore.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lyMore.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/next.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/next.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/prev.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/prev.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/qcwy.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/qcwy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/qq.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/qq.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom7.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/tel.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/tel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/zjly.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/zjly.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/zjlyt.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/zjlyt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/index.html" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/index.html" />
     </list>
     <ignored path="project-in-action.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +86,28 @@
     <favorites_list name="project-in-action" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +123,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/花店商学院官网-实战/index.html" />
+        <option value="$PROJECT_DIR$/web-project/潭州官网/index.html" />
+        <option value="$PROJECT_DIR$/web-project/腾讯课堂/index.html" />
+        <option value="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" />
       </list>
     </option>
   </component>
@@ -78,60 +165,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="花店商学院官网-实战" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project-in-action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +180,10 @@
     <property name="js-jscs-package" value="C:\Users\poetries\AppData\Roaming\npm\node_modules\jscs" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project-in-action/web-project/腾讯课堂/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -196,6 +237,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -213,6 +262,8 @@
       <workItem from="1470586167225" duration="946000" />
       <workItem from="1470620845063" duration="31000" />
       <workItem from="1470740994288" duration="909000" />
+      <workItem from="1470928559555" duration="347000" />
+      <workItem from="1470966986738" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="change some files dir">
       <created>1470586877749</created>
@@ -225,18 +276,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1886000" />
+    <option name="totallyTimeSpent" value="5090000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-8" width="1316" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="58" y="-8" width="1316" height="784" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19461538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13458529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12441315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -244,9 +305,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -269,11 +329,49 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/21point/21point.html" />
     <entry file="file://$PROJECT_DIR$/21point/js/21point.js" />
     <entry file="file://$PROJECT_DIR$/花店商学院官网-实战/index.html" />
     <entry file="file://$PROJECT_DIR$/21point/21point.html" />
     <entry file="file://$PROJECT_DIR$/21point/js/21point.js" />
     <entry file="file://$PROJECT_DIR$/花店商学院官网-实战/index.html" />
+    <entry file="file://$PROJECT_DIR$/web-project/潭州官网/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-project/潭州官网/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="285" column="26" selection-start-line="285" selection-start-column="26" selection-end-line="285" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
