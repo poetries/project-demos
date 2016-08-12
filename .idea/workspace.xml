@@ -2,71 +2,215 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ea0a69b-4d1a-488e-be58-90c93aa2b065" name="Default" comment="change some files dir">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-project/潭州官网/README.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" afterPath="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/index.html" afterPath="$PROJECT_DIR$/web-project/腾讯课堂/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bannerpic5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bannerpic5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/bg1.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/bg1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/btns.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/btns.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/buss.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/buss.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/creditPop.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/creditPop.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/cul-bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/cul-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/ewm.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/ewm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-bot.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-bot.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-small.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-small.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/float-top.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/float-top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floral.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floral.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD7.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/floralJD8.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/floralJD8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/florid.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/florid.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/hyzx.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/hyzx.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/jqkc.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/jqkc.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/li-bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/li-bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/list_bg.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/list_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/logo.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lyMore.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lyMore.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/lySchoolOffice6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/lySchoolOffice6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/next.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/next.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/prev.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/prev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/qcwy.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/qcwy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/qq.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/qq.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/showBottom7.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/showBottom7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic4.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic5.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/subnavpic6.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/subnavpic6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/tel.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/tel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight1.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight2.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/topRight3.jpg" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/topRight3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/zjly.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/zjly.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/images/zjlyt.png" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/images/zjlyt.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/花店商学院官网-实战/index.html" afterPath="$PROJECT_DIR$/web-project/花店商学院官网/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/css/index.css" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/banner.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/banner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/banner1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/banner1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/banner2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/banner2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/banner3.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/banner3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/10.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/3.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/4.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/5.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/6.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/7.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/8.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/9.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/pic14.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/pic14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/t1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/t1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/t2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/t2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/t4.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/t4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/t6.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/t6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/tou1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/tou1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/tou2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/tou2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/tou3.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/tou3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/xy1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/xy1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/xy2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/xy2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/xy3.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/xy3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/xy4.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/xy4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/course/xy5.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/course/xy5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/logo.png" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/pe_icon.png" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/pe_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/t1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/t1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/t2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/t2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/t4.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/t4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/t6.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/t6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/weixin.png" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/weixin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/xy1.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/xy1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/xy2.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/xy2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/xy3.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/xy3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/xy4.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/xy4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/images/xy5.jpg" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/images/xy5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/潭州官网/index.html" afterPath="$PROJECT_DIR$/web-project/TZ-Official-website/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/README.md" afterPath="$PROJECT_DIR$/web-project/Tencent class/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/css/index.css" afterPath="$PROJECT_DIR$/web-project/Tencent class/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency7.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/agency8.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/agency8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner-yunying-2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner-yunying-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner_btn1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner_btn1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/banner_btn2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/banner_btn2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/bbs_menu.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/bbs_menu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/bg-board-qr.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/bg-board-qr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/bg-logo.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/bg-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/bg-side-jump-hover.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/bg-side-jump-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/bg-side-jump.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/bg-side-jump.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/button.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/catalog-box6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/catalog-box6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/childclass1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/childclass1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/childclass2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/childclass2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/childclass3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/childclass3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course10.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course11.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course11.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course12.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course12.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course13.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course13.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course14.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course14.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course15.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course15.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course16.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course17.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course17.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course18.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course18.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course19.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course19.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course20.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course20.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course6.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course7.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course8.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course/course9.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course/course9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course_flow1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course_flow1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course_flow2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course_flow2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course_flow3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course_flow3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/course_flow4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/course_flow4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/exam6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/exam6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/favicon.ico" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/foot-logo-hover.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/foot-logo-hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/foot-logo.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/foot-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse6.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse7.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/goldcourse8.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/goldcourse8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/icon-card-play.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/icon-card-play.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/icon-search-white.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/icon-search-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/icon_logo_bottom.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/icon_logo_bottom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/index.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/index.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/interest1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/interest1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/interest2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/interest2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/interest3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/interest3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/issue6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/issue6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/it6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/it6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its10.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its6.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its7.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its8.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/its9.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/its9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jobmarket6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jobmarket6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/jump-plane.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/jump-plane.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/korean.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/korean.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/lan6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/lan6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/live1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/live1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/live2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/live2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/live3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/live3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/live4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/live4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/live5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/live5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/login.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/login.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/logo.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/marketing6.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/marketing6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/middleschool1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/middleschool1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/middleschool2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/middleschool2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/middleschool3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/middleschool3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/moon_banner1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/moon_banner1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/moon_banner2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/moon_banner2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/moon_banner3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/moon_banner3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/new3.gif" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/new3.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu7.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/rank-menu8.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/rank-menu8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/recommend6.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/recommend6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s1.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s2.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s3.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s4.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s5.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/s6.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/s6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/to_top.png" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/to_top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/video1.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/video1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/video2.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/video2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/video3.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/video3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/video4.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/video4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/video5.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/video5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/yexuetang.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/yexuetang.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/images/yingfulunsi.jpg" afterPath="$PROJECT_DIR$/web-project/Tencent class/images/yingfulunsi.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/index.html" afterPath="$PROJECT_DIR$/web-project/Tencent class/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-project/腾讯课堂/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/web-project/Tencent class/js/jquery-1.11.1.min.js" />
     </list>
     <ignored path="project-in-action.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +232,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+        <entry file="file://$PROJECT_DIR$/web-project/Tencent class/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
@@ -98,7 +242,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/css/index.css">
+        <entry file="file://$PROJECT_DIR$/web-project/Tencent class/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
               <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
@@ -166,7 +310,38 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-in-action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -263,7 +438,7 @@
       <workItem from="1470620845063" duration="31000" />
       <workItem from="1470740994288" duration="909000" />
       <workItem from="1470928559555" duration="347000" />
-      <workItem from="1470966986738" duration="2857000" />
+      <workItem from="1470966986738" duration="3088000" />
     </task>
     <task id="LOCAL-00001" summary="change some files dir">
       <created>1470586877749</created>
@@ -276,7 +451,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5090000" />
+    <option name="totallyTimeSpent" value="5321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,9 +464,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-8" width="1316" height="784" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13458529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13458529" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -329,7 +504,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+    <entry file="file://$PROJECT_DIR$/web-project/Tencent class/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -343,21 +518,21 @@
     <entry file="file://$PROJECT_DIR$/21point/21point.html" />
     <entry file="file://$PROJECT_DIR$/21point/js/21point.js" />
     <entry file="file://$PROJECT_DIR$/花店商学院官网-实战/index.html" />
-    <entry file="file://$PROJECT_DIR$/web-project/潭州官网/css/index.css">
+    <entry file="file://$PROJECT_DIR$/web-project/TZ-Official-website/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-840">
           <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-project/潭州官网/index.html">
+    <entry file="file://$PROJECT_DIR$/web-project/TZ-Official-website/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
           <caret line="285" column="26" selection-start-line="285" selection-start-column="26" selection-end-line="285" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/index.html">
+    <entry file="file://$PROJECT_DIR$/web-project/Tencent class/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="20" />
@@ -365,7 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-project/腾讯课堂/css/index.css">
+    <entry file="file://$PROJECT_DIR$/web-project/Tencent class/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
