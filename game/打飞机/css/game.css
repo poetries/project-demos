@@ -57,11 +57,13 @@ html,body{
 	font-weight:bold;
 	padding:10px;
 }
+
 #box .tip{
 	width:200px;
 	height:300px;
 	margin:100px 50px;
 	background:#fff;
+	
 
 }
 #box .tip p{
