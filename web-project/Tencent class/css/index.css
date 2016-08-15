@@ -835,24 +835,70 @@ div.container div.content div.shool-right{
 
 
 div.container div.content div.course-nav ul.course-rank{
-	width:200px;
-	height: 390px;
-	border:1px  solid red;
+	width:201px;
+	height: 391px;
 	margin-left:-15px;
 	text-align: center;
 }
 div.container div.content div.course-nav ul.course-rank li{
 
-	height: 83px;
-    padding: 4px 2px;
+	height: 38px;
+    padding: 0px 27px;
 }
-div.container div.content div.course-nav ul.course-rank li i{
+div.container div.content div.course-nav ul.course-rank li:hover{
+	background: #e5e5e5;
+
+}
+.rank-menu-num{
 	display: inline-block;
     width: 18px;
     height: 18px;
-    background: url("images/button.png");
     float: left;
+    margin-left: 1px;
+
+}
+.rank-menu-num-1{
 	background-position: -105px -163px;
     margin: 5px 11px 0 -1px;
+}
+.rank-menu-num-2{
+	background-position: -84px -163px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-3{
+    background-position: -21px -163px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-4{
+    background-position: -174px -130px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-5{
+	background-position: -49px -57px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-6{
+    background-position: 0 -163px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-7{
+    background-position: -63px -163px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-menu-num-8{
+    background-position: -42px -163px;
+    margin: 7px 14px 0 -1px;
+}
+.rank-description {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 180px;
+    overflow: hidden;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    text-align: left;
 }
 /*rank-right-tabs end*/
