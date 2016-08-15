@@ -449,7 +449,7 @@ div.content div.course-nav{
     position: relative;
 }
 div.content div.course-nav ul{
-	width: 970px;
+	/**width: 970px;**/
     height: 40px;
 }
 div.content div.course-nav ul li{
