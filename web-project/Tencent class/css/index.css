@@ -157,8 +157,10 @@ div.clear{
     margin: 7px 5px 10px 5px;
     float: left;
     cursor: pointer;
+	transition:all 0.3 ease 0s;
     
 }
+
 #banner div.big-banner ol li.curr-list{
 	background-color: #fff;
 }
