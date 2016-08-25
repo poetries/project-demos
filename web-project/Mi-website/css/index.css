@@ -35,13 +35,20 @@ em{
 }
 img{
 	border:none;
-	vertical-align: top;/*Çå³ýÍ¼Æ¬µÄ¼äÏ¶*/
+	vertical-align: top;/*ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½Ä¼ï¿½Ï¶*/
 }
 input{
 	border:none;outline: none;
 	background: #fff;
 }
-
+.container{
+	width: 100%;
+	min-width: 1200px;
+}
+.content{
+	width: 1226px;
+	margin: 0 auto;
+}
 .fl{
 	float: left;
 }
@@ -60,15 +67,15 @@ input{
 @font-face {font-family: 'iconfont';
     src: url('../css/iconfont.eot'); /* IE9*/
     src: url('../css/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../css/iconfont.woff') format('woff'), /* chrome¡¢firefox */
-    url('../css/iconfont.ttf') format('truetype'), /* chrome¡¢firefox¡¢opera¡¢Safari, Android, iOS 4.2+*/
+    url('../css/iconfont.woff') format('woff'), /* chromeï¿½ï¿½firefox */
+    url('../css/iconfont.ttf') format('truetype'), /* chromeï¿½ï¿½firefoxï¿½ï¿½operaï¿½ï¿½Safari, Android, iOS 4.2+*/
     url('../css/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont{
     font-family:"iconfont" !important;
     font-size:16px;
-	font-style:normal;
+		font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;

@@ -451,7 +451,7 @@ div.content div.course-nav{
     position: relative;
 }
 div.content div.course-nav ul{
-	/**width: 970px;**/
+	
     height: 40px;
 }
 div.content div.course-nav ul li{
@@ -694,7 +694,7 @@ div.container div.content div.shool-right{
 #love div.content div.course-nav div.course-hot-menu ul,
 #child div.content div.course-nav div.course-hot-menu ul
 {
-	width:800px;
+	width:750px;
 	height:100%;
 }
 
@@ -842,11 +842,13 @@ div.container div.content div.course-nav ul.course-rank{
 	margin-left:-15px;
 	text-align: center;
 }
+
 div.container div.content div.course-nav ul.course-rank li{
 
 	height: 38px;
     padding: 0px 27px;
 }
+
 div.container div.content div.course-nav ul.course-rank li:hover{
 	background: #e5e5e5;
 
@@ -903,4 +905,5 @@ div.container div.content div.course-nav ul.course-rank li:hover{
     margin-bottom: 3px;
     text-align: left;
 }
+
 /*rank-right-tabs end*/

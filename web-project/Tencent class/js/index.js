@@ -31,9 +31,9 @@ $(function(){
 		$("#banner  div.big-banner ul li").css("left","0px").eq(_index).fadeIn().siblings().fadeOut();
 		$("#banner div.big-banner ol li").eq(_index).addClass("curr-list").siblings().removeClass("curr-list");
 	}
-	
-	
-	//banner “∆»Î“∆≥ˆ¬÷≤•
+
+
+	//banner start
 	$("#banner div.big-banner").hover(function(){
 		clearInterval(oTimer);
 	},function(){
@@ -43,14 +43,14 @@ $(function(){
 	oTimer = setInterval(oBtnNext,3000);
 
 	$("#banner  div.big-banner a.next").click(function(){//next
-		
+
 		oBtnNext();
 		oBtnDo();
-		
+
 	});
-	
+
 	$("#banner  div.big-banner a.prev").click(function(){//prev
-		
+
 		_index--;
 		if (_index<0)
 		{
@@ -58,7 +58,7 @@ $(function(){
 		}
 		oBtnDo();
 	});
-	
+
 	$("#banner div.big-banner ol li").mouseover(function(){
 		//alert(1);
 		if (_index!=$(this).index())
@@ -82,8 +82,8 @@ $(function(){
 			}
 		}
 	});
-	
-	//µ◊≤ø¬÷≤• ¥˝–¥
+
+	//ÔøΩ◊≤ÔøΩÔøΩ÷≤ÔøΩ ÔøΩÔøΩ–¥
 
 	$("#authority div.content div.lists a.prev").click(function(){//prev
 		//alert(1);
@@ -97,6 +97,6 @@ $(function(){
 		$("#authority div.content div.lists ul li").css("left","-110px").eq(_index1).fadeIn().siblings().fadeOut();
 	});
 
-	
+
 
 });
