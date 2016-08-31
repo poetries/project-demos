@@ -1,12 +1,4 @@
-/*common style start*/
-
-body{
-
-	margin: 0;
-	padding: 0;
-	font-family: "Microsoft Yahei",sans-serif;
-
-}
+/*common  start*/
 
 ul,
 h3,
@@ -16,9 +8,13 @@ form,
 dl,
 dt,
 dd,
-h2{
+h2,
+body{
 
 	margin: 0;padding: 0;
+}
+body{
+	font-family: "Microsoft Yahei",sans-serif;
 }
 
 li{
@@ -35,15 +31,16 @@ em{
 }
 img{
 	border:none;
-	vertical-align: top;/*����ͼƬ�ļ�϶*/
+	vertical-align: top;
 }
 input{
-	border:none;outline: none;
+	border:none;
+	outline: none;
 	background: #fff;
 }
 .container{
 	width: 100%;
-	min-width: 1200px;
+	min-width: 1226px;
 }
 .content{
 	width: 1226px;
@@ -64,29 +61,170 @@ input{
 	clear: both;
 }
 
-@font-face {font-family: 'iconfont';
-    src: url('../css/iconfont.eot'); /* IE9*/
-    src: url('../css/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../css/iconfont.woff') format('woff'), /* chrome��firefox */
-    url('../css/iconfont.ttf') format('truetype'), /* chrome��firefox��opera��Safari, Android, iOS 4.2+*/
-    url('../css/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
-}
 
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
 .iconfont{
     font-family:"iconfont" !important;
-    font-size:16px;
-		font-style:normal;
+    font-size:16px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;}
+
+/*common  end*/
+
+
+
+/*topbar  start*/
+
+#mi-topbar{
+	height: 40px;
+	position: relative;
+	line-height: 40px;
+	color: #b0b0b0;
+	font-size: 12px;
+	background-color: #333; 
+	
+}
+#mi-topbar a{
+	color: #B0B0B0;
+    font-size: 12px;
+}
+#mi-topbar a:hover{
+	color: #fff;
+}
+#mi-topbar .sp{
+	margin: 0 8px;
+    color: #424242;
+}
+#mi-topbar .topbar-cart{
+	position: relative;
+	width: 120px;
+	height: 100%;
+	margin-left: 15px;
+	color: #b0b0b0;
+}
+#mi-topbar .topbar-cart em{/*漂浮覆盖层*/
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 120px;
+	height: 100%;
+	border-bottom: none;
+	z-index: 10;
+	background: #fff;
+	display: none;
+}
+#mi-topbar .topbar-cart .cart-menu{
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	width: 316px;
+	height: 96px;
+	line-height: 96px;
+	text-align: center;
+	padding:15px 0 0;
+	background: #fff;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+	border-top:none;
+	z-index: 1;
+	border-top:none;	
+
+}
+#mi-topbar .topbar-cart .cart-menu p{
+	color: #B0B0B0;
+}
+#mi-topbar .topbar-cart:hover .cart-menu{
+	display: block;
+}
+#mi-topbar .topbar-cart:hover em{
+	display: block;
+}
+#mi-topbar .topbar-cart a{
+	height: 100%;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	background: #424242;
+}
+#mi-topbar .topbar-cart a:hover{
+	background: #fff;
+    color: #f00;
+}
+#mi-topbar .topbar-cart i.iconfont{
+	margin-right: 2px;
+}
+
+/* topbar end */
+
+/* header start*/ 
+
+#header{
+	height: 100px;
+	border: 1px solid red;
+}
+#header ul{
+	height: 88px;
+	width: 700px;
+}
+#header ul li{
+	float: left;
+}
+#header ul li a{
+	display: inline-block;
+	padding: 5px 10px;
+	line-height: 88px;
+	font-size: 16px;
+	color: #333;
+}
+#header ul li a:hover{
+	color: #f00;
+}
+#header .header-search{
+	width: 296px;
+	height: 50px;
+	margin-top: 20px;
+}
+#header .header-search form{
+	position: relative;
+	width: 100%;
+    position: relative;
+    height: 50px;
+}
+#header .header-search form .btn{
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	width: 52px;
+	height: 50px;
+	border: 1px solid #DFDFDF;
+	cursor: pointer;
+}
+#header .header-search form .txt{
+	width: 223px;
+	height: 48px;
+	padding: 0px 10px;
+	line-height: 48px;
+	border: 1px solid #DFDFDF;
 }
 
 
-/*common style end*/
-
-
-/*top style start*/
 
 
 
-/*top style end*/
+
+
+
+
+
+
+
+
+
+/* header end*/ 
