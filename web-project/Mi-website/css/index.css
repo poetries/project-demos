@@ -165,8 +165,10 @@ input{
 
 #header{
 	height: 100px;
-	border-bottom: 1px solid #ddd;
 	position: relative;
+}
+.on{
+	border-bottom: 1px solid #ddd;
 }
 #header ul{
 	height: 88px;
@@ -251,6 +253,8 @@ input{
 	border: 1px solid red;
 	border-top: none;
 	display: none;
+	z-index: 99;
+	background: #fff;
 }
 #header .header-search form ol.show-list li{
 	margin-left: -40px;
@@ -271,6 +275,7 @@ input{
 	position: absolute;
 	right: 11px;
 	top: 6px;
+	color: #b0b0b0;
 }
 
 #header .header-details ol img{
@@ -282,21 +287,21 @@ input{
 	position: absolute;
 	top: 100px;
 	left: 0px;
-	
+	display: none;
+	z-index: 60;
 }
 #header .header-details ol li dl{
 	float: left;
-	border: 1px solid red;
 	padding: 35px 12px 0;
 	width: 180px;
 	height: 166px;
-	// display: none;
+	
 }
 
 #header .header-details ol li dl dt{
 	border-right: 1px solid #ccc;
     position: relative;
-    left: -2px;
+    left: 6px;
 	
 }
 #header .header-details ol li dl dt.last{
@@ -305,17 +310,50 @@ input{
 #header .header-details ol li dl dd{
     position: relative;
     top: -7px;
-    left: 49px;
+    left: 40px;
     margin-top: -33px;
 }
 #header .header-details ol li dl dd a{
 	font-size: 14px;
+}
+#header .header-details ol li dl dd a:hover{
+	color:#333;
 }
 #header .header-details ol li dl dd span{
 	font-size: 14px;
 	margin-left: 3px;
 	color: #ff6700;
 }
-
+#header .detail-bg{
+	position: absolute;
+	top: 101px;
+	left: 0;
+	z-index: 0;
+	background: #fff;
+	z-index: 30;
+	height: 230px;
+	width: 100%;
+	box-shadow: 0 0 3px #ccc;
+	display: none;
+}
 
 /* header end*/ 
+
+
+/* banner start */
+
+#banner {
+	height: 480px;
+	position: relative;
+	border: 1px solid red;
+}
+#banner .banner-aside,#banner .banner-pic{
+	height: 480px;
+    position: absolute;
+    top: 0;
+    /* left: 28px; */
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+/* banner end*/
