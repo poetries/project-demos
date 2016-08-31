@@ -140,9 +140,7 @@ input{
 #mi-topbar .topbar-cart .cart-menu p{
 	color: #B0B0B0;
 }
-#mi-topbar .topbar-cart:hover .cart-menu{
-	display: block;
-}
+
 #mi-topbar .topbar-cart:hover em{
 	display: block;
 }
@@ -167,7 +165,8 @@ input{
 
 #header{
 	height: 100px;
-	border: 1px solid red;
+	border-bottom: 1px solid #ddd;
+	position: relative;
 }
 #header ul{
 	height: 88px;
@@ -191,6 +190,7 @@ input{
 	height: 50px;
 	margin-top: 20px;
 }
+
 #header .header-search form{
 	position: relative;
 	width: 100%;
@@ -203,28 +203,119 @@ input{
 	right: 1px;
 	width: 52px;
 	height: 50px;
-	border: 1px solid #DFDFDF;
 	cursor: pointer;
+	transition:all 0.8s ease 0s;
+}
+#header .header-search form .btn:hover{
+	background: #ff6700;
+    color: #fff;
+
+}
+#header .header-search form p.hot-keyword a:hover{
+	background: #ff6700;
+    color: #fff;
+
+}
+#header .header-search form p.hot-keyword{
+	position: absolute;
+	top: 15px;
+	right: 57px;
+	font-size: 14px;
+	
+}
+#header .header-search form p.hot-keyword a{
+	padding: 1px 3px;
+    color: #333;
+    display: inline-block;
+    background: #F3F3F3;
+    margin-right: 5px;
 }
 #header .header-search form .txt{
 	width: 223px;
 	height: 48px;
 	padding: 0px 10px;
 	line-height: 48px;
+	
+}
+#header .header-search form .border{
 	border: 1px solid #DFDFDF;
 }
+#header .header-search .on{
+	border: 1px solid red;
+}
+#header .header-search form ol.show-list{
+	position: absolute;
+	top: 33px;
+	left: 0px;
+	width: 202px;
+	border: 1px solid red;
+	border-top: none;
+	display: none;
+}
+#header .header-search form ol.show-list li{
+	margin-left: -40px;
+}
+#header .header-search form ol.show-list li:hover{
+	background: #F3F3F3;
+}
 
+#header .header-search form ol.show-list li a{
+	position: relative;
+	display: block;
+	padding: 6px 14px;
+    font-size: 12px;
+    color: #424242;
 
+}
+#header .header-search form ol.show-list li a span{
+	position: absolute;
+	right: 11px;
+	top: 6px;
+}
 
+#header .header-details ol img{
+	width: 160px;
+	height: 110px;
+}
 
+#header .header-details ol li {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	
+}
+#header .header-details ol li dl{
+	float: left;
+	border: 1px solid red;
+	padding: 35px 12px 0;
+	width: 180px;
+	height: 166px;
+	// display: none;
+}
 
-
-
-
-
-
-
-
+#header .header-details ol li dl dt{
+	border-right: 1px solid #ccc;
+    position: relative;
+    left: -2px;
+	
+}
+#header .header-details ol li dl dt.last{
+	border-right: none;
+}
+#header .header-details ol li dl dd{
+    position: relative;
+    top: -7px;
+    left: 49px;
+    margin-top: -33px;
+}
+#header .header-details ol li dl dd a{
+	font-size: 14px;
+}
+#header .header-details ol li dl dd span{
+	font-size: 14px;
+	margin-left: 3px;
+	color: #ff6700;
+}
 
 
 /* header end*/ 
