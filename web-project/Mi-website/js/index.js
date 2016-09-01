@@ -20,7 +20,7 @@ $("#header .header-search form").find(".txt").focus(function(event) {
 	$(this).parents("form").find("p").show();
 });
 
-//menu
+//隐藏的菜单
 
 $("#header").find("ul li").hover(function() {
 	$(this).parents("#header").find(".header-details ol li").eq($(this).index()).show().siblings().hide();

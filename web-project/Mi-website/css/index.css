@@ -519,3 +519,92 @@ input{
 	background: #fff;
 }
 /* banner end*/
+
+/* open-buy start */
+
+#open-buy{
+	margin: 20px auto 20px;
+}
+#open-buy .open-left{
+	width: 234px;
+	height: 168px;
+}
+
+#open-buy .open-left ul{
+	width: 228px;
+	height: 164px;
+    padding: 3px;
+    text-align: center;
+    background: #5F5750;
+}
+#open-buy .open-left ul li {
+	position: relative;
+    width: 70px;
+    height: 82px;
+    float: left;
+    padding: 0 3px;
+    line-height: 58px;
+}
+.open-left li::before, .open-left li::after {
+    content: "";
+    position: absolute;
+    background: #665E57;
+}
+#open-buy .open-left ul li::before{
+	width: 64px;
+	height: 1px;
+    background: #665e57;
+	left: 6px;
+	top:-3px;
+}
+#open-buy .open-left ul li::after{
+	width: 1px;
+    height: 70px;
+    top: 6px;
+    left: -3px;
+    background: #665e57;
+}
+
+.open-left li.top::before, .open-left li.left::after {
+    width: 0;
+    height: 0;
+}
+#open-buy .open-left ul li a {
+    padding-top: 18px;
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s ease 0s;
+    font-size: 12px;
+}
+#open-buy .open-left ul li a:hover{
+	color: #fff;
+}
+#open-buy .open-left li a i {
+    display: block;
+    font-size: 24px;
+    height: 24px;
+    line-height: 48px;
+}
+
+
+#open-buy .open-right{
+	width: 978px;
+	height: 170px;
+}
+#open-buy .open-right ul li{
+	width: 315px;
+	height: 170px;
+	float: left;
+	margin-left: 15px;
+	transition:all 0.5s ease 0s;
+}
+#open-buy .open-right ul li:nth-of-type(1){
+	margin-left: 0;
+}
+#open-buy .open-right ul li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+#open-buy .open-right ul li a img{
+	width: 316px;
+	height: 170px;
+}
+/* open-buy end */
