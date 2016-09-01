@@ -608,3 +608,150 @@ input{
 	height: 170px;
 }
 /* open-buy end */
+
+/* star-goods start */
+
+#star-goods{
+	height: 398px;
+}
+.common h2{
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.common .topic{
+    height: 58px;
+    line-height: 58px;
+    position: relative;
+}
+.common .topic .more{
+	position: absolute;
+    right: -14px;
+	top: 12px;
+	width: 71px;
+	height: 58px;
+}
+#star-goods .topic .more a{
+    border: 1px solid #E0E0E0;
+    width: 24px;
+    height: 16px;
+    line-height: 21px;
+    color: #333;
+    font-size: 16px;
+	text-align: center;
+    padding: 3px 5px;
+    transition: color 0.3s ease 0s;
+}
+
+#star-goods .topic .more a:nth-of-type(1){
+	transform: rotateZ(180deg);
+	margin-right: -5px;
+}
+
+#star-goods .topic .more a.no-click{
+	cursor: pointer;
+	color: #ddd;
+}
+#star-goods .topic .more a.no-click:hover{
+	color:#ddd;
+}
+#star-goods .topic .more a:hover{
+	color: #f00;
+}
+#star-goods .star-goods-content{
+	height: 340px;
+	overflow: hidden;
+}
+#star-goods .star-goods-content ul {
+    width: 2480px;
+    margin-left: 0; 
+    transition: margin-left 0.5s ease 0s;
+}
+#star-goods .star-goods-content ul li{
+	width: 234px;
+	height: 300px;
+	float: left;
+    background: #FAFAFA;
+    text-align: center;
+    border-top: 1px solid #FFAC13;
+    padding-top: 39px;
+    margin-right: 14px;
+}
+
+.star-goods-content li:nth-of-type(5n+1){border-top-color: #FFAC13;}  
+.star-goods-content li:nth-of-type(5n+2){border-top-color: #83C44E;}  
+.star-goods-content li:nth-of-type(5n+3){border-top-color: #2196F3;}  
+.star-goods-content li:nth-of-type(5n+4){border-top-color: #E53935;}   
+.star-goods-content li:nth-of-type(5n){border-top-color: #00C0A5;} 
+
+.common-content li a.pic {
+    width: 160px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.common-content li a.pic img {
+    width: 160px;
+    height: 160px;
+}
+.common-content li h3 {
+    height: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.common-content li h3 a {
+    font-size: 14px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+}
+.common-content li p.desc {
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    color: #C5BBB6;
+    text-align: center;
+}
+.common-content li p.price{
+	color: #ff6700;
+	padding-top: 20px;
+}
+/* star-goods end */
+
+
+/* page-main start */
+
+.page-main{
+	margin-top: 40px;
+	padding: 60px 0;
+	background: #f5f5f5;
+}
+#intelligent {
+    height: 686px;
+    margin-bottom: 8px;
+    border: 1px solid red;
+}
+#intelligent .topic .more{
+	width:94px;
+	right: -3px;
+    top: 2px;
+}
+#intelligent .topic .more a,#intelligent .topic .more a i{
+	color: #333;
+	transition:all 0.5s ease 0s;
+}
+#intelligent .topic .more a i{
+	border-radius: 16px;
+	background: #b0b0b0;
+	color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 12px;
+}
+#intelligent .topic .more:hover a{
+	color: #ff6700;
+}
+#intelligent .topic .more:hover a i{
+	background: #ff6700;
+}
+/* page-main end */

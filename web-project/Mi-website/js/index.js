@@ -111,3 +111,12 @@ $("#banner .banner-wrap").hover(function(){
 });
 
 oTimer = setInterval(oBtnNext,3000);
+
+//tabs-btn
+
+$("#star-goods .more").find("a").click(function(){
+	if ($(this).not(".no-click")) {
+		$(".star-goods-content").find("ul").css("margin-left",-1240*$(this).index()+"px");
+		$(this).addClass('no-click').siblings().removeClass('no-click');
+	}
+});
