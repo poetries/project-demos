@@ -123,10 +123,10 @@ input{
 #mi-topbar .topbar-cart .cart-menu{
 	display: none;
 	position: absolute;
-	top: 40px;
+	top: 41px;
 	right: 0px;
 	width: 316px;
-	height: 96px;
+	height: 82px;
 	line-height: 96px;
 	text-align: center;
 	padding:15px 0 0;
@@ -247,7 +247,7 @@ input{
 }
 #header .header-search form ol.show-list{
 	position: absolute;
-	top: 33px;
+	top: 34px;
 	left: 0px;
 	width: 202px;
 	border: 1px solid red;
@@ -328,7 +328,6 @@ input{
 	position: absolute;
 	top: 101px;
 	left: 0;
-	z-index: 0;
 	background: #fff;
 	z-index: 30;
 	height: 230px;
@@ -343,17 +342,182 @@ input{
 /* banner start */
 
 #banner {
-	height: 480px;
+	height: 460px;
 	position: relative;
-	border: 1px solid red;
 }
 #banner .banner-aside,#banner .banner-pic{
-	height: 480px;
+	height: 460px;
     position: absolute;
     top: 0;
-    /* left: 28px; */
-    overflow: hidden;
-    border: 1px solid red;
+   
+}
+#banner .banner-pic{
+	 overflow: hidden;
+}
+#banner .banner-aside{    
+	background: rgba(0,0,0,0.6);
+	width: 234px;
+	z-index: 5;
+	position: relative;
+}
+#banner .banner-aside ul{
+	width: 100%;
+	height: 420px;
+	padding: 20px 0;
+}
+#banner .banner-aside ul li.item{
+	width: 100%;
+	height: 42px;
+	
+}
+#banner .banner-aside ul li.item:hover{
+	background: #FF6700;
+}
+#banner .banner-aside ul li.item div.children{
+	position: absolute;
+	top: 0;
+	left: 234px;
+	z-index: 90;
+	height: 460px;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.180392) 0px 8px 16px;
+	display: none;
 }
 
+#banner .banner-aside .children-list {
+    float: left;
+    width: 265px;
+}
+#banner .banner-aside .children-list li {
+    position: relative;
+    top: -18px;
+    float: left;
+    width: 265px;
+    height: 76px;
+}
+#banner .banner-aside .children-list li a{
+	color: rgb(51, 51, 51);
+	transition: color 0.2s ease 0s;
+	font-size: 14px;
+}
+#banner .banner-aside .children-list li a:hover{
+	color: rgb(255, 103, 0);
+}
+#banner .banner-aside .children-list li a.link {
+	width: 170px;
+	padding: 18px 0 18px 20px;
+	display: inline-block;
+	margin-top: 3px;
+}
+#banner .banner-aside .children-list li a.link img{
+	margin-right: 12px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+}
+#banner .banner-aside .children-list li a.sel-buy{
+	position: absolute;
+    right: 10px;
+    top: 26px;
+    width: 58px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid rgb(242, 88, 7);
+    text-align: center;
+    color: rgb(242, 88, 7);
+}
+#banner .banner-aside .children-list li a.sel-buy:hover{
+	color: rgb(255, 255, 255);
+    background-color: rgb(242, 88, 7);
+    border-color: rgb(242, 88, 7);
+}
+#banner .banner-aside .children-list li a.link span.txt{
+	line-height: 40px;
+}
+#banner .banner-aside  .col-1{
+	width: 265px;
+}
+#banner .banner-aside ul .col-list-1{
+	// background: #bbb;
+	width: 265px;
+	height: 420px;
+}
+#banner .banner-aside   .col-2{
+	width: 530px;
+}
+#banner .banner-aside ul .col-list-2{
+	// background: pink;
+	width: 265px;
+	height: 420px;
+}
+#banner .banner-aside   .col-3{
+	width: 795px;
+}
+#banner .banner-aside ul .col-list-3{
+	// background: yellow;
+	width: 265px;
+	height: 420px;
+}
+
+
+#banner .banner-aside ul li.item .title{
+	color:#fff;
+	padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+}
+#banner .banner-aside ul li.item .title i{
+	position: absolute;
+    top: 12px;
+    right: 20px;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    line-height: 16px;
+}
+#banner .banner-wrap .btn{
+	position: absolute;
+	top: 50%;
+	width: 41px;
+	height: 69px;
+	margin-top: -14px;
+	background: url("../images/icon-slides.png") no-repeat;
+	z-index: 4;
+}
+#banner .banner-wrap .prev{
+	background-position: -84px 50%;
+	left: 271px;
+}
+#banner .banner-wrap .prev:hover{
+	background-position: 0 50%;
+}
+#banner .banner-wrap .next{
+	background-position: -125px 50%;
+	right: 36px;
+}
+#banner .banner-wrap .next:hover{
+	background-position: -42px 50%;
+}
+#banner .banner-wrap ol{
+	position: absolute;
+    right: 40px;
+    bottom: 10px;
+    z-index: 40;
+}
+
+#banner .banner-wrap ol li {
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin-right: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(0, 0, 0 ,0.3);
+    transition: all 0.3s ease 0s;
+}
+#banner .banner-wrap ol li.active,#banner .banner-wrap ol li:hover{
+	background: #fff;
+}
 /* banner end*/

@@ -23,12 +23,29 @@ $("#header .header-search form").find(".txt").focus(function(event) {
 //隐藏的菜单
 
 $("#header").find("ul li").hover(function() {
-	$(this).parents("#header").find(".header-details ol li").eq($(this).index()).fadeIn(200).siblings().hide();
+	$(this).parents("#header").find(".header-details ol li").eq($(this).index()).show().siblings().hide();
 	$(this).parents("#header").addClass('on');
 	$(this).parents("#header").find(".detail-bg").show();
 
 },function(){
-	$(this).parents("#header").find(".header-details ol li").fadeOut(200);
+	$(this).parents("#header").find(".header-details ol li").hide();
 	$(this).parents("#header").removeClass('on');
 	$(this).parents("#header").find(".detail-bg").hide();
+});
+
+//nav
+
+$("#banner .banner-aside").find(" ul li.item").hover(function() {
+	$(".children",$(this)).show();
+}, function() {
+	$(".children",$(this)).hide();
+});
+
+//banner
+
+$("#banner .banner-wrap .prev").click(function(){
+	$(this).parents("#banner").find(".banner-wrap img").css("left",'-1226px');
+});
+$("#banner .banner-wrap .next").click(function(){
+	alert(22);
 });
