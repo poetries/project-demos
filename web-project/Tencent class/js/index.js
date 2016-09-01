@@ -83,7 +83,7 @@ $(function(){
 		}
 	});
 
-	//�ײ��ֲ� ��д
+	//authority
 
 	$("#authority div.content div.lists a.prev").click(function(){//prev
 		//alert(1);

@@ -412,8 +412,6 @@ input{
 #banner .banner-aside .children-list li a.link img{
 	margin-right: 12px;
     vertical-align: middle;
-    position: absolute;
-    left: 0;
 }
 #banner .banner-aside .children-list li a.sel-buy{
 	position: absolute;
