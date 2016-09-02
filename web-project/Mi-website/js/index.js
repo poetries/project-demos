@@ -114,7 +114,13 @@ oTimer = setInterval(oBtnNext,3000);
 
 //tabs-btn
 
-$("#star-goods .more").find("a").click(function(){
+$("#mi-star .more").find("a").click(function(){
+	if ($(this).not(".no-click")) {
+		$(".star-goods-content").find("ul").css("margin-left",-1240*$(this).index()+"px");
+		$(this).addClass('no-click').siblings().removeClass('no-click');
+	}
+});
+$("#recommend .more").find("a").click(function(){
 	if ($(this).not(".no-click")) {
 		$(".star-goods-content").find("ul").css("margin-left",-1240*$(this).index()+"px");
 		$(this).addClass('no-click').siblings().removeClass('no-click');
@@ -136,7 +142,7 @@ function fnTab(objLi,objUl){
 	})
 }
 
-fnTab($("#match .topic .more li"),$("#match .content-right ul"));
-//fnTab($("#parts .topic .more li"),$("#parts .content-right ul"));
-//fnTab($("#around .topic .more li"),$("#around .content-right ul"));
+fnTab($("#match .topic .more li"),$("#match .comm-content-right ul"));
+fnTab($("#parts .topic .more li"),$("#parts .comm-content-right ul"));
+fnTab($("#around .topic .more li"),$("#around .comm-content-right ul"));
 

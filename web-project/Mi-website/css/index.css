@@ -611,7 +611,7 @@ input{
 
 /* star-goods start */
 
-#star-goods{
+.comm-star-goods{
 	height: 398px;
 }
 .common h2{
@@ -629,7 +629,7 @@ input{
     right: 0px;
 	top: 12px;
 }
-#star-goods .topic .more a{
+.comm-star-goods .topic .more a{
     border: 1px solid #E0E0E0;
     width: 24px;
     height: 16px;
@@ -641,31 +641,31 @@ input{
     transition: color 0.3s ease 0s;
 }
 
-#star-goods .topic .more a:nth-of-type(1){
+.comm-star-goods .topic .more a:nth-of-type(1){
 	transform: rotateZ(180deg);
 	margin-right: -6px;
 }
 
-#star-goods .topic .more a.no-click{
+.comm-star-goods .topic .more a.no-click{
 	cursor: pointer;
 	color: #ddd;
 }
-#star-goods .topic .more a.no-click:hover{
+.comm-star-goods .topic .more a.no-click:hover{
 	color:#ddd;
 }
-#star-goods .topic .more a:hover{
+.comm-star-goods .topic .more a:hover{
 	color: #f00;
 }
-#star-goods .star-goods-content{
+.comm-star-goods .star-goods-content{
 	height: 340px;
 	overflow: hidden;
 }
-#star-goods .star-goods-content ul {
+.comm-star-goods .star-goods-content ul {
     width: 2480px;
     margin-left: 0; 
     transition: margin-left 0.5s ease 0s;
 }
-#star-goods .star-goods-content ul li{
+.comm-star-goods .star-goods-content ul li{
 	width: 234px;
 	height: 300px;
 	float: left;
@@ -807,37 +807,78 @@ input{
 	background: #e53935;
 }
 
-#match {
+#match,#parts,#around {
     height: 686px;
     margin-bottom: 8px;
 }
-#match .topic .more {
+#match .topic .more,#parts .topic .more,#around .topic .more {
     line-height: 26px;
     height: 26px;
 }
-.topic .more li{
+.topic .more ul li{
 	float: left;
 	margin-left: 30px;
 	font-size: 16px;
-    transition: all 0.5s ease 0s;
-
+    transition: all 0.3s ease 0s;
+	
 }
-.topic .more li.active {
+.topic .more ul li:hover{
+	cursor: pointer;
+}
+.topic .more ul li.active {
     border-bottom: 2px solid #FF6700;
     color: #FF6700;
 }
-#match .content-left ul li:nth-of-type(1){
+.comm-content-left ul li:nth-of-type(1){
 	margin-bottom: 14px;
 }
-#match .content-left ul li{
+.comm-content-left ul li{
 	transition:all 0.5s ease 0s;
 }
-#match .comm-content-right ul{
-	display: none;
+.comm-content-right{
+	position: relative;
 }
-#match .comm-content-right ul.active{
-	display: block;
+.comm-content-right ul{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
+.comm-content-right ul li.min-box{
+	width: 234px;
+	height: 93px;
+	padding-top: 50px;
+	padding-bottom: 0;
+	overflow: hidden;
+	margin-bottom: 14px;
+}
+
+.comm-content-right ul li.min-box a.pic {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 80px;
+    height: 80px;
+}
+.comm-content-right ul li.min-box a.pic img {
+    width: 80px;
+    height: 80px;
+}
+.comm-content-right ul li.min-box p.price {
+    margin: 0px 110px 0px 30px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 14px;
+}
+.comm-content-right ul li.min-box h3 {
+    margin: -10px 110px 5px 30px;
+    text-align: left;
+}
+.comm-content-right ul li.min-box a.pic i {
+    font-size: 48px;
+    line-height: 48px;
+    color: #FF6700;
+}
+
 .comm-content-right .comment{
 	position: absolute;
 	bottom: 0;
@@ -853,6 +894,7 @@ input{
 	padding: 10px 30px;
     margin-top: 1px;
     display: block;
+    overflow: hidden;
 }
 .comm-content-right .comment em{
 	display: inline-block;
@@ -867,5 +909,71 @@ input{
 .comm-content-right .comment em.author{
     color: #fff;
     color: rgba(255,255,255,0.6);
+}
+#recommend ul li{
+	background: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+#recommend ul li:hover{
+	box-shadow: 0px 8px 15px #ddd;
+    transform: translateY(-3px);
+
+}
+#hotProduct{
+	margin-top: 14px;
+}
+#hotProduct h2 {
+    height: 62px;
+    line-height: 58px;
+    font-weight: 200;
+}
+.hotProduct-con ul {
+    height: 380px;
+    width: 1240px;
+}
+.hotProduct-con ul li {
+    width: 296px;
+    height: 380px;
+    margin-right: 14px;
+    float: left;
+    background-color: #fff;
+}
+.hotProduct-con ul li:hover {
+    box-shadow: 0 20px 25px #e5e5e5;
+    transform: translateY(-3px);
+}
+.hotProduct-con .pic {
+    width: 296px;
+    height: 220px;
+    margin: 0 0 30px;
+}
+.hotProduct-con .pic img {
+    width: 296px;
+    height: 220px;
+}
+.hotProduct-con p{
+	font-size: 14px;
+}
+.hotProduct-con p.comment {
+    margin: 0 30px 5px;
+}
+.hotProduct-con p.author {
+    margin: 0 30px 5px;
+    color: #b0b0b0;
+}
+.hotProduct-con p.info {
+    margin: 0 30px 5px;
+}
+.hotProduct-con .line {
+    color: #ddd;
+    margin: 0 5px;
+}
+.hotProduct-con span.price {
+    color: #f00;
+}
+
+#content{
+	margin-top: 22px;
 }
 /* page-main end */
