@@ -120,3 +120,23 @@ $("#star-goods .more").find("a").click(function(){
 		$(this).addClass('no-click').siblings().removeClass('no-click');
 	}
 });
+
+//tabs-toggle
+
+$(".comm-content-right ul li").hover(function() {
+	$(this).find(".comment").css('height',"80px");
+}, function() {
+	$(this).find(".comment").css('height',"0px");
+});
+
+function fnTab(objLi,objUl){
+	objLi.mouseover(function(){
+		objUl.eq($(this).index()).show().siblings().hide();
+		$(this).addClass("active").siblings().removeClass("active");
+	})
+}
+
+fnTab($("#match .topic .more li"),$("#match .content-right ul"));
+//fnTab($("#parts .topic .more li"),$("#parts .content-right ul"));
+//fnTab($("#around .topic .more li"),$("#around .content-right ul"));
+

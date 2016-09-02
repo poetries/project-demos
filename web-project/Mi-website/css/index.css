@@ -626,10 +626,8 @@ input{
 }
 .common .topic .more{
 	position: absolute;
-    right: -14px;
+    right: 0px;
 	top: 12px;
-	width: 71px;
-	height: 58px;
 }
 #star-goods .topic .more a{
     border: 1px solid #E0E0E0;
@@ -645,7 +643,7 @@ input{
 
 #star-goods .topic .more a:nth-of-type(1){
 	transform: rotateZ(180deg);
-	margin-right: -5px;
+	margin-right: -6px;
 }
 
 #star-goods .topic .more a.no-click{
@@ -715,6 +713,8 @@ input{
 .common-content li p.price{
 	color: #ff6700;
 	padding-top: 20px;
+	text-align: center;
+    line-height: 30px;
 }
 /* star-goods end */
 
@@ -729,12 +729,10 @@ input{
 #intelligent {
     height: 686px;
     margin-bottom: 8px;
-    border: 1px solid red;
 }
 #intelligent .topic .more{
-	width:94px;
-	right: -3px;
-    top: 2px;
+	right: 0px;
+    top: 0px;
 }
 #intelligent .topic .more a,#intelligent .topic .more a i{
 	color: #333;
@@ -753,5 +751,121 @@ input{
 }
 #intelligent .topic .more:hover a i{
 	background: #ff6700;
+}
+
+#intelligent .content-left ul{
+	width: 234px;
+	height: 614px;
+}
+#intelligent .content-left ul li{
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease 0s;
+
+}
+.content-left li:hover, .comm-content-right li:hover {
+    box-shadow: 0px 8px 15px #ddd;
+    transform: translateY(-3px);
+}
+.comm-content-right{
+	width: 992px;
+	height: 628px;
+}
+.comm-content-right ul li{
+	position: relative;
+	width: 234px;
+    height: 260px;
+    padding: 20px 0;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    transition: all 0.3s ease 0s;
+}
+.comm-content-right ul li span{
+	width: 64px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.comm-content-right ul li .newProuduct{
+	background: #0f0;
+}
+.comm-content-right ul li .postfree{
+	background: #ffac13;
+}
+.comm-content-right ul li .gift{
+	background: #2196f3;
+}
+.comm-content-right ul li .saleoff{
+	background: #e53935;
+}
+
+#match {
+    height: 686px;
+    margin-bottom: 8px;
+}
+#match .topic .more {
+    line-height: 26px;
+    height: 26px;
+}
+.topic .more li{
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+    transition: all 0.5s ease 0s;
+
+}
+.topic .more li.active {
+    border-bottom: 2px solid #FF6700;
+    color: #FF6700;
+}
+#match .content-left ul li:nth-of-type(1){
+	margin-bottom: 14px;
+}
+#match .content-left ul li{
+	transition:all 0.5s ease 0s;
+}
+#match .comm-content-right ul{
+	display: none;
+}
+#match .comm-content-right ul.active{
+	display: block;
+}
+.comm-content-right .comment{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	font-size: 12px;
+	width: 234px;
+	height: 0px;
+    transition: all 0.2s linear 0s;
+    background: #FF6700;
+}
+.comm-content-right .comment a{
+	padding: 10px 30px;
+    margin-top: 1px;
+    display: block;
+}
+.comm-content-right .comment em{
+	display: inline-block;
+    text-align: center;
+    width: 165px;
+}
+.comm-content-right .comment em.comment-tips{
+
+	margin-bottom: 5px;
+	color: #fff;
+}
+.comm-content-right .comment em.author{
+    color: #fff;
+    color: rgba(255,255,255,0.6);
 }
 /* page-main end */
