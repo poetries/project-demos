@@ -1217,3 +1217,132 @@ input{
     border-color: rgba(255,0,0,0.6);
 }
 /* page-main end */
+
+
+/* footer-service start */
+
+
+
+#footer-service {
+    background: #fafafa;
+}
+#footer-service .content{
+	padding: 49px 0;
+    border-bottom: 1px solid #b0b0b0;
+}
+#footer-service li {
+    width: 19.8%;
+    border-left: 1px solid #b0b0b0;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    text-align: center;
+}
+#footer-service li a {
+    font-size: 16px;
+    color: #616161;
+    transition: 0.2s;
+}
+#footer-service li a:hover {
+    color: #ff6700;
+}
+#footer-service li a i {
+    font-size: 22px;
+    line-height: 22px;
+    margin-right: 6px;
+}
+#footer-service li.first {
+    border-left: none;
+}
+
+
+#site-help {
+    padding: 40px 0;
+}
+#site-help dl {
+    width: 165px;
+    height: 112px;
+    float: left;
+}
+#site-help dt {
+    margin: 0 0 25px;
+    font-size: 14px;
+}
+#site-help dd {
+    font-size: 12px;
+    line-height: 1.2;
+    color: #757575;
+    margin: 0 0 12px;
+}
+#site-help dd a:hover {
+    color: #ff6700;
+}
+.contact {
+    width: 242px;
+    height: 112px;
+    border-left: 1px solid #b0b0b0;
+    text-align: center;
+}
+.contact p.phone {
+    color: #ff6700;
+    font-size: 22px;
+}
+.contact p.date, .contact p.cost {
+    color: #b0b0b0;
+}
+.contact p.date, .contact p.cost {
+    color: #b0b0b0;
+}
+.contact .online {
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    background: #fff;
+    display: block;
+    margin: 12px auto 0;
+    font-size: 12px;
+    color: #FF6700;
+    transition: 0.3s;
+}
+.contact .online:hover {
+    background: #ff6700;
+    color: #fff;
+}
+.contact .online i {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#site-bottom {
+    padding: 22px 0 148px;
+    background: #FAFAFA;
+}
+.logo-footer {
+    width: 36px;
+    height: 36px;
+    background: url("../images/logo-footer.png") no-repeat;
+    margin-right: 10px;
+}
+.footer-info {
+    height: 36px;
+}
+.footer-info p {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+.footer-info p span {
+    margin: 0 3px;
+}
+.footer-info p:nth-of-type(2), .footer-info p:nth-of-type(2) a {
+    color: #b0b0b0;
+}
+.convience a {
+    float: left;
+}
+.convience a img {
+    margin-left: 6px;
+}
+
+/* footer-service end */
