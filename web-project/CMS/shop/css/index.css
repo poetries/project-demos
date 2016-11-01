@@ -237,11 +237,49 @@
 }
 
 
-
-
 #banner .news{
 	width: 190px;
 	height: 419px;
-	background:green;
+	margin-left: 10px;
 	float: left;
+}
+
+#banner .news .newsOpacity{
+	width: 190px;
+    height: 419px;
+    background: #0a0202;
+    opacity: 0.7;
+}
+#banner .news .newsCon{
+	position: absolute;
+    width: 190px;
+    height: 419px;
+    top: 0px;
+    right: 0px;
+    color: #fff;
+}
+#banner .news .newsCon h3{
+	height: 43px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 43px;
+    text-indent: 20px;
+    font-family: 微软雅黑;
+    font-weight: 100;
+    background: rgb(48, 6, 12);
+}
+#banner .news .newsCon ul{
+	padding: 10px 10px 15px 10px;
+}
+#banner .news .newsCon ul li{
+	font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+#banner .news .newsCon ul li a{
+	color:#fff;
+}
+#banner .news .newsCon ul li span{
+	color:#cf2050;
 }
