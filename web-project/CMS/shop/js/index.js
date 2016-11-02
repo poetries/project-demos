@@ -117,3 +117,11 @@ $("#banner").hover(function(){
 },function(){
 	$(this).find("a.btn").fadeOut(200);
 });
+
+
+// 推荐
+$("#topEvent .topList .topList-l ").find("p a").click(function(){
+	var _index = $(this).index();
+	$(this).addClass("active").siblings().removeClass("active");
+	$("#topEvent .topList .topList-l .con").eq(_index).fadeIn(300).siblings().fadeOut(300);
+});

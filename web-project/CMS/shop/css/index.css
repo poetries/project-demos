@@ -412,7 +412,18 @@
 	height: 319px;
 	width: 959px;
 }
+#topEvent .topList .topList-l .topListCon{
+	position: relative;
 
+}
+#topEvent .topList .topList-l .topListCon .list-1{
+	z-index: 10;
+}
+#topEvent .topList .topList-l .topListCon .con{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 #topEvent .topList .topList-l dl.first{
 	margin-left: 7px;
 }
@@ -431,15 +442,20 @@
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ddd;
 }
-#topEvent .topList .topList-l p span{
+#topEvent .topList .topList-l p a{
 	width: 220px;
+	height: 15px;
 	display: block;
     float: left;
     text-align: center;
     margin-right: 10px;
-	border: 1px solid red;
+    padding-top: 6px;
+    position: relative;
+    top: -5px;
+
+
 }
-#topEvent .topList .topList-l p span.active{
+#topEvent .topList .topList-l p a.active {
 	color: #e61f18;
     border-top: 1px solid #e61f18;
 }
