@@ -24,17 +24,28 @@ $(window).scroll(function(){
 });
 
 //显示二级菜单内容
-$("#nav ul li.first ol li").hover(function(){
-	$(this).find(".moreMenu").fadeIn(300).parent().siblings().find(".moreMenu").hide();
+$("#banner ol li").hover(function(){
+	$(this).addClass("hover");
+	//当前 li与Menu上面的距离
+	var _top=$(this).position().top; //获取li与他相对定位元素上面的距离 top值
+	var _height=$(this).find(".moreNav").height()/3;
+	if(_top>_height){
+		if($(this).index()==4 || $(this).index()==5){
+			$(this).find(".moreNav").css("top",-(_height*3-68));
+		}else{
+			$(this).find(".moreNav").css("top",-_height); //重新给.moreNav赋值
+		}
+	}
 },function(){
-	$(this).find(".moreMenu").hide();
+	$(this).removeClass("hover");
 });
 
-//banner HTML结构有问题 待改善
 
-/*var _index = 0;
+//轮播图特效
+
+var _index = 0;
 var oTimer = null;
-var oLi = $("#banner .scroll a").size();
+var oLi = $("#banner .flash ul.scroll li").size();
 
 function oBtnNext(){
 	_index++;
@@ -46,11 +57,11 @@ function oBtnNext(){
 	oBtnDo();
 }
 function oBtnDo(){
-	$("#banner .scroll a").css("left","0px").eq(_index).fadeIn(50).siblings().fadeOut(50);
+	$("#banner .flash ul.scroll li").css("left","0px").eq(_index).fadeIn(50).siblings().fadeOut(50);
 	$("#banner ul.smallDot li").eq(_index).addClass("active").siblings().removeClass("active");
 }
 
-$("#banner a.prev").click(function(){//prev
+$("#banner .PartCon a.prev").click(function(){//prev
 	_index--;
 
 	if (_index<0)
@@ -61,7 +72,7 @@ $("#banner a.prev").click(function(){//prev
 
 });
 
-$("#banner a.next").click(function(){//next
+$("#banner .PartCon a.next").click(function(){//next
 	oBtnNext();
 	oBtnDo();
 });
@@ -72,16 +83,16 @@ $("#banner ul.smallDot li").mouseover(function(){
 		{
 			if (_index<$(this).index())
 			{
-				var oWidth=$("#banner .scroll a").width();
-				$("#banner .scroll a").eq(_index).animate({left:-oWidth},function(){
+				var oWidth=$("#banner .flash ul.scroll li").width();
+				$("#banner .flash ul.scroll li").eq(_index).animate({left:-oWidth},function(){
 					$(this).hide();
 				}).end().eq($(this).index()).show().css("left",oWidth).animate({left:0});
 				_index=$(this).index();
 				$(this).addClass("active").siblings().removeClass("active");
 			}
 			else{
-				var oWidth=$("#banner .scroll a").width();
-				$("#banner .scroll a").eq(_index).animate({left:oWidth},function(){
+				var oWidth=$("#banner .flash ul.scroll li").width();
+				$("#banner .flash ul.scroll li").eq(_index).animate({left:oWidth},function(){
 					$(this).hide();
 				}).end().eq($(this).index()).show().css("left",-oWidth).animate({left:0});
 				_index=$(this).index();
@@ -92,11 +103,17 @@ $("#banner ul.smallDot li").mouseover(function(){
 
 //banner Timer
 
-$("#banner .scroll").hover(function(){
+$("#banner .flash").hover(function(){
 	clearInterval(oTimer);
 },function(){
-	oTimer = setInterval(oBtnNext,3000);
+	oTimer = setInterval(oBtnNext,2000);
 });
 
-oTimer = setInterval(oBtnNext,3000);
-*/
+oTimer = setInterval(oBtnNext,2000);
+
+//按扭显示隐藏
+$("#banner").hover(function(){
+	$(this).find("a.btn").fadeIn(200);
+},function(){
+	$(this).find("a.btn").fadeOut(200);
+});

@@ -131,47 +131,8 @@
 	color: #fff;
     font-size: 18px;
 }
-#nav ul li.first .leftMenu{
-	width: 190px;
-	height: 420px;
-    background: #000;
-    position: absolute;
-    top: 50px;
-    left: 0;
-}
-#nav ul li.first .leftMenu .moreMenu {
-	width: 200px;
-	height: 300px;
-	border: 1px solid red;
-	position: absolute;
-	top: 0;
-	left: 190px;
-	display: none;
-}
-#nav ul li.first ol li{
-	height: 69px;
-    width: 100%;
-    position: relative;
-    line-height: 30px;
-    text-align: left;
-    border-bottom: 1px solid #1c1c1c;
-}
-#nav ul li.first ol li dl{
-	width: 100%;
-	height: 69px;
-}
-#nav ul li.first ol li dl dt{
-    color: #f42760;
-    font-weight: 100;
-    text-indent: 15px;
-}
-#nav ul li.first ol li dl dd{
-    padding: 0 0px 0 17px;
-    float: left;
-}
-#nav ul li.first ol li dl dd a{
-	color: #fff;
-}
+
+
 #banner {
 	height: 419px;
 	background-image: url(../images/timeGo.png);
@@ -179,17 +140,105 @@
 #banner .PartCon{
 	position: relative;
 }
-#banner .scroll{
-	width: 1000px;
+
+#banner .leftMenu{
+	width: 190px;
+	height: 420px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+}
+
+#banner .leftMenu ol li .moreNav{
+	width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 190px;
+    top: -1px;
+    border: 1px solid #666;
+    display: none;
+}
+#banner .leftMenu ol li .border_top{
+	width:100%;
+	height:1px; 
+	background:#666; 
+	position:absolute;
+	left:0px;
+	top:-1px; 
+	display:none;
+}
+#banner .leftMenu ol li .border_bottom{
+	width: 100%;
+    height: 1px;
+    background: #666;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    display: none;
+}
+#banner .leftMenu ol li .border_right{
+	height: 69px;
+    width: 1px;
+    background: #000;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    display: none;
+}
+#banner .leftMenu ol li.hover .moreNav,
+#banner .leftMenu ol li.hover .border_top,
+#banner .leftMenu ol li.hover .border_right,
+#banner .leftMenu ol li.hover .border_bottom {
+	display:block;
+}
+
+#banner ol li{
+	height: 69px;
+    width: 100%;
+    position: relative;
+    line-height: 30px;
+    text-align: left;
+    border-bottom: 1px solid #1c1c1c;
+}
+#banner ol li dl{
+	width: 100%;
+	height: 69px;
+}
+#banner ol li dl dt{
+    color: #f42760;
+    font-weight: 100;
+    text-indent: 15px;
+}
+#banner ol li dl dd{
+    padding: 0 0px 0 17px;
+    float: left;
+}
+#banner ol li dl dd a{
+	color: #97a3a3;
+    font-size: 12px;
+}
+#banner ol li dl dd a:hover{
+    color: #f42760;
+}
+#banner .flash{
+	width: 820px;
 	height: 419px;
 	float: left;
 	overflow: hidden;
+    margin-left: 190px;
+    position: relative;
+}
+#banner .flash ul.scroll{
+	width: 1000%;
+
 
 }
-#banner .scroll a img{
-	position: absolute;
-	top: 0;
-	left: 190px;
+#banner .flash ul.scroll li{
+	float: left;
+
+
 }
 #banner .PartCon a.btn {
 	width: 71px;
@@ -198,14 +247,23 @@
 	position: absolute;
 	top: 175px;
 	z-index: 99;
+	display: none;
 }
+
 #banner .PartCon a.prev{
     left: 152px;
     background: url(../images/but.png) -71px 0px;	
 }
+#banner .PartCon a.prev:hover{
+    background-position: 0px 0px;
+}
+
 #banner .PartCon a.next{
 	right: 160px;
     background: url(../images/but.png) -71px -71px;
+}
+#banner .PartCon a.next:hover{
+    background-position: 0px -71px;
 }
 
 #banner ul.smallDot{
@@ -240,7 +298,6 @@
 #banner .news{
 	width: 190px;
 	height: 419px;
-	margin-left: 10px;
 	float: left;
 }
 
@@ -249,6 +306,9 @@
     height: 419px;
     background: #0a0202;
     opacity: 0.7;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 #banner .news .newsCon{
 	position: absolute;
@@ -277,9 +337,13 @@
     font-family: 微软雅黑;
     line-height: 30px;
 }
+#banner .news .newsCon ul.news-bg li{
+    background: #692125;
+    margin-bottom: 5px;
+}
 #banner .news .newsCon ul li a{
 	color:#fff;
 }
-#banner .news .newsCon ul li span{
+#banner .news .newsCon ul li span a,#banner .news .newsCon ul li span{
 	color:#cf2050;
 }
