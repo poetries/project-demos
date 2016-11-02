@@ -496,12 +496,18 @@
 }
 #topEvent .topList .topList-r .topList-r-recommend .con p{
 	text-align: center;
-
+	
 }
 #topEvent .topList .topList-r .topList-r-recommend .con p.des{
 	margin-bottom: 20px;	
 	font-size: 14px;
 	font-weight: bold;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.time {
+	background: #ddd;
+	margin-left: 20px;
+	border-radius: 4px;
+	padding: 3px;
 }
 #topEvent .topList .topList-r .topList-r-recommend .con p.time span{
 	color: #e61f18;
@@ -522,4 +528,37 @@
 	margin-top: 10px;
 	width: 200px;
 	height: 200px;
+}
+#specific {
+	margin-top: 45px;
+
+}
+#specific .parCon{
+	
+	height: 535px;
+}
+#specific .parCon h3{
+
+	height: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+#specific .parCon .parL{
+	width: 320px;
+	height: 535px;
+	background: red;
+	float: left;
+
+}
+#specific .parCon .parM{
+	height: 535px;
+	width: 180px;
+	background: blue;
+	float: left;
+}
+#specific .parCon .parR{
+	float: left;
+	height: 535px;
+	width: 700px;
+	background: yellow;
 }
