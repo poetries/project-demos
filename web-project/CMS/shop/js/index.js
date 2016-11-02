@@ -125,3 +125,10 @@ $("#topEvent .topList .topList-l ").find("p a").click(function(){
 	$(this).addClass("active").siblings().removeClass("active");
 	$("#topEvent .topList .topList-l .con").eq(_index).fadeIn(300).siblings().fadeOut(300);
 });
+
+$("#topEvent .topList .topList-r p.ti a ").click(function(){
+	var _index = $(this).index();
+	$(this).addClass("active").siblings().removeClass("active");
+	$("#topEvent .topList .topList-r-recommend .con").eq(_index).fadeIn(300).siblings().fadeOut(300);
+});
+

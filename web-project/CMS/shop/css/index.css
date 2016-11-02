@@ -479,3 +479,47 @@
 	height: 320px;
 	border: 1px solid #ddd;
 }
+#topEvent .topList .topList-r p.ti a{
+	display: inline-block;
+	float: left;
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #ddd;
+	
+}
+#topEvent .topList .topList-r p.ti a.active{
+	background: #fff;
+	color: #e61f18;
+    border-top: 1px solid #e61f18;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p{
+	text-align: center;
+
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.des{
+	margin-bottom: 20px;	
+	font-size: 14px;
+	font-weight: bold;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.time span{
+	color: #e61f18;
+	font-weight: bold;
+}
+#topEvent .topList .topList-r .topList-r-recommend {
+	position: relative;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con{
+	position: absolute;
+	top: 35px;
+	left: 0;
+}
+#topEvent .topList .topList-r .topList-r-recommend .top1{
+	z-index: 22;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con img{
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+}
