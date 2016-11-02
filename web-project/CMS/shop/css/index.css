@@ -529,36 +529,161 @@
 	width: 200px;
 	height: 200px;
 }
-#specific {
+.commCss {
 	margin-top: 45px;
 
 }
-#specific .parCon{
+.commCss .parCon{
 	
-	height: 535px;
+	height: 500px;
+	border: 1px solid #ddd;
 }
-#specific .parCon h3{
+.commCss h3{
 
 	height: 20px;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
-#specific .parCon .parL{
-	width: 320px;
-	height: 535px;
-	background: red;
+.commCss .parCon .parL{
+	width: 300px;
+	height: 515px;
+	padding: 10px;
 	float: left;
+	position: relative;
 
 }
-#specific .parCon .parM{
-	height: 535px;
-	width: 180px;
-	background: blue;
+.commCss .parCon .parL a.prev{
+	position: absolute;
+	top: 210px;
+	left: 4px;
+}
+.commCss .parCon .parL a.next{
+	position: absolute;
+	top: 210px;
+	right: 6px;
+}
+.commCss .parCon .parL .imgList {
+	width: 280px;
+	height: 480px;
+	margin-left: 10px;
+	position: relative;
+	overflow: hidden;
+	
+
+}
+
+.commCss .parCon .parL .imgList p.desc{
+	font-size: 16px;
+	margin-top: 40px;
+	text-align: center;
+}
+.commCss .parCon .parL .imgList p.price{
+	margin-left: 95px;
+	margin-top: 40px;
+	border-radius: 5px;
+	padding: 8px;
+	display: inline-block;
+	border: 1px solid #ddd;
+}
+.commCss .parCon .parL .imgList p.price span{
+
+	font-weight: bold;
+	color: #e61f18;
+	font-size: 16px;
+
+}
+.commCss .parCon .parL .imgList ul{
+	width: 5000px;
+}
+.commCss .parCon .parL .imgList ul li{
+	float: left;
+	width: 280px;
+	height: 480px;
+}
+
+.commCss .parCon .parL .imgList ul li a img{
+	width: 260px;
+	height: 260px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.commCss .parCon .parM{
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-top: none;
+	border-bottom: none;
+	height: 500px;
+	width: 178px;
 	float: left;
 }
-#specific .parCon .parR{
+.commCss .parCon .parM ul li{
+	line-height: 45px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.commCss .parCon .parM ul li img{
+	display: none;
+}
+.commCss .parCon .parM ul li.active img{
+	position: absolute;
+    top: 15px;
+    right: -15px;
+    display: block;
+}
+.commCss .parCon .parM ul li.active{
+    background: #efefef;
+    color: #ff4a01;
+}
+.commCss .parCon .parM ul li.last{
+	border-bottom: none;
+	cursor: default;
+}
+.commCss .parCon .parM ul li.last p.desc{
+	font-size: 12px;
+}
+.commCss .parCon .parM ul li.last p.hot{
+	display: inline-block;
+	padding: 8px;
+	color: #ff4a01;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 10px;
+	font-size: 14px;
+
+}
+.commCss .parCon .parM ul li.last a img{
+	width: 175px;
+	height: 150px;
+	display: block;
+	margin-top: 15px;
+}
+.commCss .parCon .parR{
 	float: left;
 	height: 535px;
-	width: 700px;
-	background: yellow;
+	width: 698px;
+	position: relative;
+}
+
+.commCss .parCon .parR ul li{
+	width: 200px;
+	height: 230px;
+	margin: 14px;
+	float: left;
+}
+.commCss .parCon .parR ul.con{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.commCss .parCon .parR ul li p {
+	text-align: center;
+}
+.commCss .parCon .parR ul li p span{
+	margin-left: 10px;
+	color: #ff4a01;
+
 }
