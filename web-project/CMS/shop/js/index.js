@@ -16,12 +16,12 @@ $("#nav ul li.item").not(".first,.last").hover(function(){
 
 //吸顶盒导航  
 /*浏览器窗品的滚动事件 scroll*/
-$(window).scroll(function(){
+/*$(window).scroll(function(){
 	var _top = $(window).scrollTop();//获取浏览器窗口滚动高度
 	var _height = $(".topMain").height();
 	//document.title=_top;
 	_top>_height?$("#nav").addClass("gd"):$("#nav").removeClass("gd");
-});
+});*/
 
 //显示二级菜单内容
 $("#banner ol li").hover(function(){
@@ -119,7 +119,7 @@ $("#banner").hover(function(){
 });
 
 
-// 推荐
+// 推荐 天天低价
 $("#topEvent .topList .topList-l ").find("p a").click(function(){
 	var _index = $(this).index();
 	$(this).addClass("active").siblings().removeClass("active");
@@ -131,6 +131,26 @@ $("#topEvent .topList .topList-r p.ti a ").click(function(){
 	$(this).addClass("active").siblings().removeClass("active");
 	$("#topEvent .topList .topList-r-recommend .con").eq(_index).fadeIn(300).siblings().fadeOut(300);
 });
+
+// 鲜花布局
+
+$("#flower .flower ul.flowerNav li").not(".first").mouseover(function(){
+
+	var _index = $(this).index();
+	$(this).addClass("active").siblings().removeClass("active");
+	$("#flower .flower .flowerCon .flowerR ul.flowerList").eq(_index).fadeIn(400).siblings().fadeOut(400);
+});
+
+//手风琴效果
+
+$("#flower .flower .flowerCon .flowerL li").mouseover(function(){
+
+	var _index = $(this).index();
+	$(this).addClass('active').siblings().removeClass('active');
+	$(this).find("h3,p").addClass("active").end().siblings().find("h3,p").removeClass("active");
+	
+});
+
 
 //个性定制
 /*var _index = 0;
@@ -184,3 +204,4 @@ $("#gift .parCon .parM ul li ").not(".last").mouseover(function(){
 	$(this).addClass("active").siblings().removeClass("active");
 	$("#gift .parCon .parR ul.con").eq(_index).fadeIn(300).siblings().fadeOut(300);
 });
+
