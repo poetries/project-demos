@@ -237,8 +237,10 @@
 }
 #banner .flash ul.scroll li{
 	float: left;
-
-
+}
+#banner .flash ul.scroll li a img{
+	width: 820px;
+	height: 419px;
 }
 #banner .PartCon a.btn {
 	width: 71px;
