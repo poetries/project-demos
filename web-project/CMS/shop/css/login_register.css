@@ -17,8 +17,83 @@
     float: left;
     width: 400px;
     height: 37px;
-    border: 1px solid blue;
+    border-bottom: 1px solid #ddd;
     text-align: center;
     line-height: 36px;
     font-size: 16px;
+}
+#login .content p.ti span.active{
+	border-bottom: 2px solid #6699ff;
+}
+#login .content .LgRegCon{
+	height: 470px;
+	margin-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+#login .content .LgRegCon .Lg{
+	display: block;
+}
+#login .content .LgRegCon .Reg{
+	display: none;
+}
+#login .content .LgRegCon .con p{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#login .content .LgRegCon .con p.ch{
+	padding-left: 90px;
+}
+#login .content .LgRegCon .con p.txt{
+	margin-top: 30px;
+	padding-left: 100px;
+}
+#login .content .LgRegCon .con p.txt .btn{
+    width: 120px;
+    height: 38px;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 14px;
+    background-color: #ff6699;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 37px;
+    text-align: center;
+    border: none;
+}
+#login .content .LgRegCon .Lg p.txt a.btn1{
+	background: #ff9900;
+}
+#login .content .LgRegCon .Lg p.txt a{
+	line-height: 20px;
+}
+#login .content .LgRegCon .Lg p.ch label{
+	margin-left: 10px;
+	
+}
+#login .content .LgRegCon .con input.txt{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+#login .content .LgRegCon .con span{
+	display: inline-block;
+	width: 80px;
+	height: 19px;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 14px;
+}
+#login .content .LgRegCon .Lg p a.forgotpwd{
+	color: #36A2DC;
+	font-size: 12px;
+	margin-left: 101px;
+}
+#login .content .LgRegCon .Reg label{
+	margin-left: 10px;
+	text-align: left;
+    display: inline-block;
+    font-size: 12px;
 }

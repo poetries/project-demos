@@ -2,18 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>商城登录注册页面</title>
+	<title>Ecshop商城开发-订单详情页</title>
 	<meta name="Ecshop" content="Ecshop"/>
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/font.css"/>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	<link rel="stylesheet" type="text/css" href="css/login_register.css"/>
-	
+	<link rel="stylesheet" href="css/dd.css" />
 </head>
 <body>
 	
-	<!-- header start -->
-	<div class="container" id="header">
+	<div class="topMain">
+		<!-- top start -->
+	 	 <div class="container" id="topbar">
+			<div class="top">
+				<a href="javascript:void(0);" class="adv">
+					<img src="images/adv.jpg" alt="adv" />
+				</a>
+			</div>
+			<img src="images/close.png" class="close"/>
+	  </div>
+	
+		<!-- header start -->
+		 <div class="container" id="header">
+
 		<div class="content">
 			<h1 class="logo"><a href="#"><img src="images/gift_logo.png"/></a></h1>
 			<form action="#" class="search">
@@ -28,9 +39,8 @@
 				<a href="javascript:void(0);"><i class="iconfont">&#xe646;</i>加入购物车</a>
 			</div>
 		</div>
-		</div>
 	</div>
-	
+	</div>
 	<!-- Nav start -->
 	<div class="container" id="nav">
 		<div class="content">
@@ -48,40 +58,37 @@
 		</div>
 	</div>
 	
-	<!--注册页面-->
-	
-	<div class="container" id="login">
+	<div class="container">
 		<div class="content">
-			<p class="ti">
-				<span class="active">用户登录</span>
-				<span>用户注册</span>
-			</p>
-			<div class="LgRegCon">
-				<div class="Lg con">
-					<form action="">
-						<p><span>用户名:</span><input type="text"  name="" id="" value="" class="txt"/></p>
-						<p><span>密码:</span><input type="password"  name="" id="" value="" class="txt"/></p>
-						<p class="ch"><input type="checkbox" name="" id="ch" /><label for="ch">记住本次登录信息</label></p>			<p class="txt"><input type="submit" value="登录" class="btn"/><a href="javascript:void(0);" class="btn btn1">直接购买</a></p>
-					</form>
-					<p><a class="forgotpwd" href="javascript:void(0);">忘记密码?</a></p>
-				</div>
-				<div class="Reg con">
-					<form action="">
-						<p><span>用户名:</span><input type="text"  name="" id="" value="" class="txt"/><label for="">用户名是邮数字、字母、下划线组成</label></p>
-						<p><span>邮箱:</span><input type="text"  name="" id="" value="" class="txt"/><label for=""> 请输入正确的邮箱地址</label></p>
-						<p><span>密码:</span><input type="password"  name="" id="" value="" class="txt"/><label for="">密码是6-16邮数字、字母、下划线</label></p>
-						<p><span>确认密码:</span><input type="password"  name="" id="" value="" class="txt"/><label for="">两次密码要一样</label></p>
-						<p class="txt"><input type="submit" value="注册新用户" class="btn"/></p>
-					</form>
-				</div>
+			<div class="smallNav">
+				<span>当前位置:</span> 
+				<a class="hover" href="javascript:void(0)">首页  </a>&gt;
+				<a class="hover" href="javascript:void(0)">手机类型 </a> &gt;
+				<a class="hover" href="javascript:void(0)">3G手机 </a> &gt;
+				<span> KD876</span>
+			</div>
+			<div class="dd_address">
+				<ul>
+					<li class="first">
+						<span class="btn btn-active">1</span>
+						<span class="txt txt-active">提交订单</span>
+						<span class="line line-active"></span>
+					</li>
+					<li class="second">
+						<span class="btn btn-active">2</span>
+						<span class="txt txt-active">确认订单并支付</span>
+						<span class="line line-active"></span>
+					</li>
+					<li class="last">
+						<span class="btn">3</span>
+						<span class="txt">已完成</span>
+						<span class="line"></span>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	
-	
-	
-	
-	
+
 	
 	<!-- footer -->
 

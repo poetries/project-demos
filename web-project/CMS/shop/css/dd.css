@@ -1,0 +1,209 @@
+/*订单页面的样式*/
+
+/* smallNav */
+
+.smallNav{
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.smallNav a.hover {
+	font-size: 12px;
+}
+.smallNav a.hover:hover{
+	color: #FD0031;
+	
+}
+.dd_address{
+	height: 80px;
+	padding: 10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ddd;
+	
+}
+.dd_address ul{
+	height: 40px;
+	margin: 20px 60px 0 50px;
+
+}
+.dd_address ul li{
+	width: 350px;
+	height: 40px;
+	float: left;
+	margin-left: -2px;
+
+}
+.dd_address ul li.first{
+	margin-left: 20px;
+}
+.dd_address ul li span{
+	display: inline-block;
+}
+.dd_address ul li span.btn{
+	width: 36px;
+	width: 36px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 36px;
+	background: #ddd;
+	border: 2px solid #666;
+}
+.dd_address ul li span.btn-active{
+	background: #ffccff;
+    border: 2px solid #ff3399;
+    color: #ff3399;
+}
+.dd_address ul li span.txt-active{
+	color: #ff3399;
+}
+.dd_address ul li span.line{
+	background: #666;
+}
+.content .dd_address ul li span.line-active{
+	background: #ff3399;
+}
+.dd_address ul li span.txt {
+	width: 70px;
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.dd_address ul li span.line{
+	width: 231px;
+	height: 3px;
+	background: #666;
+}
+.dd_address ul li.last span.line{
+	height: 0;
+}
+.dd_address ul li.second span.txt{
+	width: 110px;
+}
+.dd_address ul li.second span.line{
+	width: 190px;
+}
+.content .dd_address ul li.second span.line-active{
+	background: -webkit-gradient(linear,left center,right center,from(#ff3399), to(#666));
+}
+
+/* dd-success */
+
+#dd_success .dd_address ul li.second span.line-active{
+	background: #ff3399;
+}
+
+#dd_success .dd_address ul li.last span.txt{
+	color: #ff3399;
+}
+#dd_success .dd_address ul li.last span.btn-active{
+    background: #ffccff;
+    border: 2px solid #ff3399;
+    color: #ff3399;
+}
+/* 订单页面样式 */
+
+#dd .dd_address ul li.first span.line-active{
+	background: -webkit-gradient(linear,left center,right center,from(#ff3399), to(#666));
+}
+#dd .ddList ul{
+    height: 40px;
+    border: 1px solid #ccc;
+    width: 1200px;
+    margin: 30px  auto 0;
+    background: #ddd;
+  
+}
+#dd .ddList ul li{
+	width: 151px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-right: 2px;
+	text-align: center;
+}
+#dd .ddList ul li.first{
+	width: 280px;
+}
+#dd .ddList ul.itemlist {
+	margin-top: 0;
+	height: 190px;
+	background-color: #fff;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+}
+#dd .ddList ul.itemlist li.first a.pic {
+	line-height: 24px;
+    margin-top: 23px;
+    display: block;
+}
+#dd .ddList ul.itemlist li.first a.pic img{
+	width: 100px;
+	height: 100px;
+}
+#dd .ddList ul.itemlist li.item{
+	line-height: 200px;
+}
+#dd .ddList ul.itemlist li.item input.num {
+    width: 33px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+#dd .ddList ul.itemlist li.item a.hander {
+	color: #F42760;
+}
+#dd .dd_end {
+	width: 1200px;
+	height: 140px;
+	margin: 30px auto;
+	border: 1px solid #ddd;
+}
+#dd .dd_end p {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+#dd .dd_end p.info span{
+	color: #F42760;
+	font-size: 18px;
+}
+#dd .dd_end p a{
+	display: inline-block;
+	height: 37px;
+	text-align: center;
+	line-height:37px;
+}
+#dd .dd_end p.info a{
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	background-color: #FF3366;
+	color: #fff;
+	border-radius: 3px;
+}
+#dd .dd_end p.continue{
+	margin-top: 40px;
+}
+#dd .dd_end p.continue a{
+	
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	background-color: #FF3366;
+	color: #fff;
+	border-radius: 3px;
+}
+#dd .dd_end p.continue a.fl{
+	float: left;
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	color: #000;
+}
+#dd .dd_end p.continue a.fr{
+	float: right;
+	width: 180px;
+	background-color: #E43D40;
+}
