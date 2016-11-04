@@ -1,0 +1,82 @@
+#goods .goodsCon {
+	margin-top: 30px;
+	height: 550px;
+	
+}
+#goods .goodsCon .goodsL{
+	width: 38%;
+	height: 550px;
+	float: left;
+
+}
+#goods .goodsCon .goodsL .simg {
+	width: 450px;
+    height: 450px;
+    position: relative;
+}
+#goods .goodsCon .goodsL .simg span.move{
+	width: 80px;
+    height: 100px;
+    border: 1px solid #000;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #fff;
+}
+#goods .goodsCon .goodsL .simg span.shade{
+	width: 450px;
+    height: 450px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0.3;
+}
+#goods .goodsCon .goodsL .simg img {
+    width: 450px;
+    height: 450px;
+    margin-left: 3px;
+}
+
+#goods .goodsCon .goodsL .btn {
+	width: 450px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#goods .goodsCon .goodsL .btn img{
+	float: left;
+	width: 64px;
+	border: 2px solid #ddd;
+	margin: 0 10px;
+}
+
+#goods .goodsCon .goodsL .btn img.active {
+	border: 2px solid #CF2050;
+}
+
+
+
+#goods .goodsCon .goodsR{
+	width: 58%;
+	height: 550px;
+	float: right;
+	border: 1px solid blue;
+}
+#goods .goodsHot h3{
+	height: 40px;
+	line-height: 40px;
+	text-indent: 10px;
+	border-bottom: 1px solid #ddd;
+	color: #FD0031;
+	font-size: 18px;
+}
+#goods .goodsHot {
+	height: 326px;
+	margin: 30px auto;
+	border: 1px solid red
+}
