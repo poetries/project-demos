@@ -58,7 +58,8 @@
 		</div>
 	</div>
 	
-	<div class="container">
+	<!-- 订单路径  商品列表-->
+	<div class="container" id="dd-xq">
 		<div class="content">
 			<div class="smallNav">
 				<span>当前位置:</span> 
@@ -86,12 +87,209 @@
 					</li>
 				</ul>
 			</div>
+			<div class="goodsList">
+				<h3>商品列表<a href="javascript:void(0);">点击修改</a></h3>
+				<table>
+					<tbody>
+						<tr>
+							<td class="bold">商品名称</td>
+							<td class="bold">属性</td>
+							<td class="bold">市场价</td>
+							<td class="bold">本店价</td>
+							<td class="bold">购买数量</td>
+							<td class="bold">小计</td>
+						</tr>
+						<tr>
+							<td class="goods-ti"><a href="javascript:void(0);">烂漫温馨蛋糕</a></td>
+							<td>尺寸:10寸</td>
+							<td>￥1665.60元</td>
+							<td>￥1388.00元</td>
+							<td>2</td>
+							<td>￥1388.00元</td>
+						</tr>
+						<tr>
+							<td class="goods-ti"><a href="javascript:void(0);">烂漫温馨蛋糕</a></td>
+							<td>尺寸:10寸</td>
+							<td>￥1665.60元</td>
+							<td>￥1388.00元</td>
+							<td>2</td>
+							<td>￥1388.00元</td>
+						</tr>
+						<tr>
+							<td colspan="6">购物金额小计 <span class="money">￥1388.00</span>元，比市场价 ￥1665.60元 节省了 ￥277.60元 (17%)</td>
+							
+						</tr>
+					</tbody>
+				</table>
+				
+				<h3>收货人信息<a href="javascript:void(0);">点击修改</a></h3>
+				<table class="user-info">
+					<tbody>
+						<tr>
+							<td class="bold bg">收货人姓名:</td>
+							<td>静观流叶</td>
+							<td class="bold bg">电子邮件地址:</td>
+							<td>564537488@qq.com</td>
+						</tr>
+						<tr>
+							<td class="bold bg">详细地址:</td>
+							<td>广东深圳南山区</td>
+							<td class="bold bg">邮政编码：</td>
+							<td>50001</td>
+
+						</tr>
+						<tr>
+							<td class="bold bg">电话：</td>
+							<td>1234567888</td>
+							<td class="bold bg">手机：</td>
+							<td>1367884445</td>
+
+						</tr>
+						<tr>
+							<td class="bold bg">标志建筑:</td>
+							<td>沃尔玛大超市</td>
+							<td class="bold bg">最佳送货时间:</td>
+							<td>下午什么时候都 可以</td>
+
+						</tr>
+
+					</tbody>
+				</table>
+				
+				<h3>快递信息<a href="javascript:void(0);">点击修改</a></h3>
+				<table class="express-info">
+					<tbody>
+						<tr>
+							<td class="bold"></td>
+							<td class="bold">名称</td>
+							<td class="bold">订购描述</td>
+							<td class="bold">费用</td>
+							<td class="bold">免费额度</td>
+							<td class="bold">保价费用</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="express" id="" /></td>
+							<td>申通快递</td>
+							<td>江、浙、沪地区首重为15元/KG，其他地区18元/KG， 续重均为5-6元/KG， 云南地区为8元</td>
+							<td>￥1388.00元</td>
+							<td>2</td>
+							<td>不支持保价</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="express" id="" /></td>
+							<td>城际快递</td>
+							<td>配送的运费是固定的</td>
+							<td>￥1388.00元</td>
+							<td>2</td>
+							<td>不支持保价</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="express" id="" /></td>
+							<td>邮局平邮</td>
+							<td>邮局平邮的描述内容。</td>
+							<td>￥1388.00元</td>
+							<td>2</td>
+							<td>不支持保价</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="express" id="" /></td>
+							<td>运费到付</td>
+							<td>配送的运费是固定的</td>
+							<td>所购商品到达即付运费</td>
+							<td>2</td>
+							<td>不支持保价</td>
+						</tr>
+						<tr>
+							<td colspan="6" class="last"><input type="checkbox" name="" id="" value="" class="ch"/>配送是否需要保价</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			
+			
+				<h3>支付信息<a href="javascript:void(0);">点击修改</a></h3>
+				<table class="pay-type">
+					<tbody>
+						<tr>
+							<td class="bold"></td>
+							<td class="bold">名称</td>
+							<td class="bold">订购描述</td>
+							<td class="bold">手续费</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="zftype" id="" /></td>
+							<td>余额支付</td>
+							<td>只有会员才能使用，通过设置信用额度，可以透支。</td>
+							<td>￥0.00元</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="zftype" id="" /></td>
+							<td>银行汇款/转帐</td>
+							<td>银行名称 收款人信息：全称 ××× ；帐号或地址 ××× ；开户行 ×××。 <br />
+注意事项：办理电汇时，请在电汇单“汇款用途”一栏处注明您的订单号。</td>
+							<td>￥0.00元</td>
+						</tr>
+						<tr>
+							<td class="first"><input type="radio" name="zftype" id="" /></td>
+							<td>货到付款</td>
+							<td>开通城市：××× 货到付款区域：×××</td>
+							<td>￥0.00元</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<h3>其他信息<a href="javascript:void(0);">点击修改</a></h3>
+				<table class="other-info">
+					<tbody>
+						<tr>
+							<td class="bold">使用红包:</td>
+							<td>选择已有红包
+								<select name="">
+									<option value="">100块红包</option>
+									<option value="">200块红包</option>
+								</select>
+								或者输入红包序列号<input type="text" name="" id="" class="num" /><input type="button" value="验证红包" class="hb" />
+							</td>
+						</tr>
+						<tr>
+							<td class="bold">订单附言:</td>
+							<td><textarea name="" rows="" cols="" class="area"></textarea></td>
+						</tr>
+						<tr>
+							<td class="bold">缺货处理:</td>
+							<td>
+								<input type="radio" name="other" id="" />等待所有商品备齐后再发  
+								<input type="radio" name="other" id="" /> 取消订单   
+								<input type="radio" name="other" id="" />与店主协商
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+				<h3>其他信息<a href="javascript:void(0);">点击修改</a></h3>
+				<table class="paySum-info">
+					<tr>
+						<td>该订单完成后，您将获得<span>1388</span> 积分 ，以及价值 <span>￥0.00</span>元的红包</td>
+					</tr>
+					<tr>
+						<td>商品总价: <span>￥1388.00</span>元 + 配送费用: <span>￥15.00</span>元</td>
+					</tr>
+					<tr>
+						<td>应付款金额: <span>￥1403.00</span>元</td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="提交订单" class="btn"/></td>
+					</tr>
+					
+				</table>
+				
+			</div>
 		</div>
 	</div>
 
 	
 	<!-- footer -->
-
 	<div class="container" id="footer">
 		<div class="content footer">
 			<img class="pic" src="images/f.jpg" alt="">

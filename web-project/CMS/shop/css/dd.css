@@ -207,3 +207,115 @@
 	width: 180px;
 	background-color: #E43D40;
 }
+
+/* 商品列表信息 */
+
+#dd-xq .goodsList {
+	width: 1200px;
+	height: 1607px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+#dd-xq .goodsList h3{
+	height: 38px;
+	line-height: 38px;
+	text-indent: 20px;
+	background-color: #ddd;
+	
+}
+#dd-xq .goodsList h3 a{
+	float: right;
+	color: #F4673E;
+	margin-right: 10px;
+	font-size: 14px;
+}
+#dd-xq .goodsList table {
+	width: 1170px;
+	height: 220px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+#dd-xq .goodsList table tr{
+	border: 1px solid #ccc;
+	height: 30px;
+}
+#dd-xq .goodsList table tr td{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+#dd-xq .goodsList table tr td span.money {
+	color: #F4673E;
+	font-size: 18px;
+}
+#dd-xq .goodsList table tr td.bold{
+	font-weight: bold;
+}
+#dd-xq .goodsList table tr td.bg{
+	background: #EEE;
+}
+#dd-xq .goodsList table tr td.goods-ti{
+	width: 250px;
+}
+#dd-xq .goodsList table.user-info tr{
+	line-height: 0px;
+	height: 15px;
+}
+#dd-xq .goodsList table.express-info tr td.last {
+	text-align: right;
+}
+#dd-xq .goodsList table.express-info tr td input.ch{
+    margin-right: 10px;
+}
+#dd-xq .goodsList table tr td.first{
+	width: 37px;
+}
+#dd-xq .goodsList table.other-info tr td input.num{
+	margin: 0 10px;
+    width: 90px;
+}
+#dd-xq .goodsList table.other-info tr td input.hb{
+	background: #FF6699;
+    font-size: 12px;
+    width: 80px;
+    color: #fff;
+    height: 20px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    line-height: 20px;
+    cursor: pointer;
+}
+#dd-xq .goodsList table.other-info tr td textarea.area {
+	width: 800px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+#dd-xq .goodsList table.paySum-info span{
+	color: #FF3700;
+	font-size: 16px;
+	margin: 0 4px;
+}
+
+#dd-xq .goodsList table.paySum-info input.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    background: #FF3700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+#dd-xq .goodsList table.paySum-info,#dd-xq .goodsList table.paySum-info tr,#dd-xq .goodsList table.paySum-info td {
+	border: none;
+}
+
+#dd-xq .goodsList table.paySum-info td{
+	text-align: right;
+}
+#dd-xq .goodsList table.paySum-info tr{
+	height: 10px;
+    line-height: 5px;
+}
