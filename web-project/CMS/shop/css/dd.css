@@ -319,3 +319,68 @@
 	height: 10px;
     line-height: 5px;
 }
+
+/* 收货人信息 */
+
+#user-address-info .user-address{
+	height: 530px;
+	margin: 30px auto;
+    box-shadow: 0px 0px 10px #666;
+}
+#user-address-info .user-address h3 {
+	height: 30px;
+	line-height: 30px;
+	text-indent: 20px;
+	background: #ccc;
+	font-size: 16px;
+}
+#user-address-info .user-address  .addressCon {
+	height: 400px;
+	width: 1120px;
+	margin: 45px auto 0;
+}
+#user-address-info .user-address  .addressCon p{
+	border-bottom: 1px solid #ddd;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 40px;
+}
+#user-address-info .user-address  .addressCon p input{
+	height: 25px;
+	width: 250px;
+	
+}
+#user-address-info .user-address  .addressCon p select {
+	margin-left: 40px;
+}
+#user-address-info .user-address  .addressCon p span.con-info {
+	text-align: right;
+    padding-right: 10px;
+    width: 123px;
+    display: inline-block;
+}
+#user-address-info .user-address  .addressCon p span.info-r {
+	margin-left: 50px;
+}
+#user-address-info .user-address  .addressCon p.btn {
+	margin-top: 20px;
+	text-align: center;
+	border-bottom: none;
+}
+#user-address-info .user-address  .addressCon p.btn input{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: #FF6666;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	
+}
+#user-address-info .user-address  .addressCon p label{
+	margin-left: 10px;
+	color: #F42760;
+}
