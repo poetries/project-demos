@@ -233,7 +233,7 @@ $("#goods .goodsCon .goodsL .simg span.shade").hover(function(){
 $("#goods .goodsCon .goodsL .simg span.shade").mousemove(function(e){
 	//获取鼠标与浏览器的坐标
 	var x = e.clientX; //鼠标与浏览器窗口左边的距离
-	var y = e.clientY;
+	var y=e.clientY+$(window).scrollTop();//鼠标与浏览器窗口上面距离
 	//document.title = x+"|"+y;
 	
 	//遮罩层与浏览器窗口的距离
@@ -249,18 +249,18 @@ $("#goods .goodsCon .goodsL .simg span.shade").mousemove(function(e){
 	
 	//边缘检测 
 	//小滑块能滑动的最大高度与最大宽度
-	var maxW = $(this).height()-h*2-2;
-	var maxH = $(this).width()-w*2;
+	var maxH = $(this).height()-h*2-2;
+	var maxW = $(this).width()-w*2;
 	if(_top<0){
 		_top = 0;
-	}else if(_top > maxW){
-		_top = maxW;
+	}else if(_top > maxH){
+		_top = maxH;
 	}
 	
-	if(_left<3){
-		_left = 3;
-	}else if(_left > maxH){
-		_left = maxH;
+	if(_left<0){
+		_left = 0;
+	}else if(_left > maxW){
+		_left = maxW;
 	}
 	
 	//document.title = _left+"|"+_top;
