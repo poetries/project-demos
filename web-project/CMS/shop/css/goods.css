@@ -242,14 +242,14 @@
     margin-left: -4px;
 }
 #goods .goodsDetails ul.ti{
-	height: 50px;
+	height: 40px;
 	border-bottom: 1px solid #F42760;
 } 
 #goods .goodsDetails ul.ti li {
 	float: left;
 	width: 100px;
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
 	text-align: center;
 	padding: 0 18px;
 	margin-right: 10px;
@@ -262,7 +262,7 @@
 	border-left: 1px solid #FD0031;
     margin-top: -1px;
 }
-#goods .goodsDetails ul.ti li span {
+#goods .goodsDetails ul.ti li.active span {
     position: absolute;
     top: 35px;
     left: 0;
@@ -271,7 +271,22 @@
     background-color: #fff;
 }
 #goods .goodsDetails .goodsDetailsCon {
-	height: 600px;
-	margin-top: 10px;
-	border: 1px solid red;
+	height: 1000px;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#goods .goodsDetails .goodsDetailsCon .com {
+	width: 1180px;
+	height: 900px;
+	border: 1px solid green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+
+}
+#goods .goodsDetails .goodsDetailsCon .desc{
+	z-index: 2;
+	display: block;
 }

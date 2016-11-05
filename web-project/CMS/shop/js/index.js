@@ -215,8 +215,8 @@ $("#login .content p.ti span").mouseover(function(){
 
 //宝贝详情页
 
-$("#goods .goodsDetails ul.ti li").mouseover(function(){
+$("#goods .goodsDetails ").find("ul.ti li").mouseover(function(){
 	var _index = $(this).index();
 	$(this).addClass("active").siblings().removeClass("active");
-
+	$(this).parents(".goodsDetails").find(".goodsDetailsCon .com").eq(_index).show().siblings().hide();
 });
