@@ -212,3 +212,11 @@ $("#login .content p.ti span").mouseover(function(){
 	$(this).addClass("active").siblings().removeClass("active");
 	$("#login .content .LgRegCon .con").eq(_index).show().siblings().hide();
 });
+
+//宝贝详情页
+
+$("#goods .goodsDetails ul.ti li").mouseover(function(){
+	var _index = $(this).index();
+	$(this).addClass("active").siblings().removeClass("active");
+
+});
