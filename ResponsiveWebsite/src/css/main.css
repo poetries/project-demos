@@ -10,3 +10,92 @@ html {
     font-size: 62.5%;
     color: #222;
 }
+::selection {
+    /*设置选中文字的背景颜色*/
+    background-color: #ff0000;
+    text-shadow: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+/* ==========
+    工具样式
+    ========= */
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+.text-right {
+    text-align: right !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.hide {
+    display: none !important;
+}
+.show {
+    display: block !important;
+}
+.invisible {
+    visibility: hidden;
+}
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background: transparent;
+    border:none;
+}
+
+.clearfix:after,
+.clearfix:before {/*before 是为了防止浏览器顶部空白的崩溃*/
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========
+    浏览器更新提示
+    ========= */
+
+.browerupdate {
+    margin: 0;
+    padding: 1rem;
+    background: #ccc;
+}
+
+/* ==========
+    页面自定义样式
+    ========= */
+
+body {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    background-color: #F8F7F7;
+}
+a {
+    color: #666;
+}
+a:hover ,a:active {
+    color: #0ae;
+    text-decoration: underline;
+}
