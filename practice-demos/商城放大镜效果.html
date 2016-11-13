@@ -17,17 +17,18 @@
         .container .simg {
             width: 350px;
             height: 300px;
+            position: relative;
         }
         .container .simg span.move {
              display: inline-block;
-             width: 100px;
-             height: 100px;
+             width: 180px;
+             height: 180px;
              position: absolute;
              top:30px;
              left: 30px;
-             background: #ff0000;
-             opacity: .6;
+             background: url(img/shade.png) 0 0;
              display: none;
+
          }
         .container .simg span.shade {
             display: inline-block;
@@ -37,8 +38,8 @@
             top: 0;
             left: 0;
             background: blueviolet;
-            opacity: .6;
-
+            opacity: 0;
+            cursor: move;
         }
         .container .bimg {
             position: absolute;
@@ -49,9 +50,13 @@
             overflow: hidden;
             display: none;
         }
+        .container .bimg img {
+            position: absolute;/*使大图具有移动 不可少*/
+        }
         .container .img-btn {
             width: 350px;
             height: 90px;
+
         }
         .container .img-btn span.active {
             border: 1px solid red;
@@ -84,19 +89,19 @@
 </body>
 <script src="js/jquery.js"></script>
 <script>
-    //商城放大镜效果
 
+    //鼠标移入移出
     $("span.shade").hover(function(){
-        $("span.move,.simg").show();
+        $("span.move,.bimg").show();
     },function(){
-        $("span.move,.simg").hide();
+        $("span.move,.bimg").hide();
     });
 
     //当鼠标在遮罩层上滑动时 动态获取小滑块的位置
-    $("span.shade").mousemove(function(e){
+    $(".container .simg span.shade").mousemove(function(e){
         //获取鼠标与浏览器的坐标
         var x = e.clientX; //鼠标与浏览器窗口左边的距离
-        var y=e.clientY+$(window).scrollTop();//鼠标与浏览器窗口上面距离
+        var y= e.clientY+$(window).scrollTop();//鼠标与浏览器窗口上面距离
         //document.title = x+"|"+y;
 
         //遮罩层与浏览器窗口的距离
@@ -105,8 +110,8 @@
         //document.title = l+"|"+t;
 
         //小方块与simg盒子的距离=鼠标与浏览器的距离 - 遮罩层与浏览器窗口的距离-小方块宽度的一半
-        var w = $("span.move").width()/2;
-        var h = $("span.move").height()/2;
+        var w = $(".container .simg span.move").width()/2;
+        var h = $(".container .simg span.move").height()/2;
         var _left = x - l - w;
         var _top = y - t - h;
 
@@ -127,7 +132,7 @@
         }
 
         //document.title = _left+"|"+_top;
-        $("span.move").css({
+        $(".container .simg span.move").css({
             "left":_left,
             "top":_top
         });
@@ -140,18 +145,18 @@
 
 
         //大图的宽度和高度
-        var bigW = $(".simg img").width();
-        var bigH = $(".simg img").height();
+        var bigW = $(".container .bimg img").width();
+        var bigH = $(".container .bimg img").height();
 
         //盒子的宽度和高度
-        var boxW = $(".simg").width();
-        var boxH = $(".simg").height();
+        var boxW = $(".container .bimg").width();
+        var boxH = $(".container .bimg").height();
 
         //大图要移动的距离=（大图的宽度-盒子的宽度）*滑动的比例
         var bigLeft = (bigW -boxW)* wb1; //大图往左边移动的距离
         var bigTop = (bigH-boxH) * wh1;
 
-        $(".bimg img").css({
+        $(".container .bimg img").css({
             "left":-bigLeft,
             "top":-bigTop
         });
@@ -164,8 +169,7 @@
 
         //获取小图片对应的大图地址
         var bimg = $(this).find("img").attr("dataSrc");
-        $(".bimg img").attr("src",bimg);
-
+        $(".bimg img,.simg img").attr("src",bimg);
     });
 </script>
 </html>
