@@ -4,19 +4,94 @@
     <meta charset="UTF-8">
     <title>楼梯导航定位</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .asideNav {
+            width: 32px;
+            border: 1px solid #ccc;
+            position: fixed;
+            top: 150px;
+            left: 50px;
+        }
 
+        .asideNav ul li{
+            width: 32px;
+            height: 32px;
+            list-style: none;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            line-height: 32px;
+            border-bottom: 1px dotted #ddd;
+            position: relative;
+            cursor: pointer;
+        }
+        .asideNav ul li span {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            display: none;
+        }
+        .asideNav ul li.top {
+            background: #c00;
+            color: #fff;
+        }
+        .asideNav ul li.hover span {
+            display: block;
+            background: #c00;
+            color: #fff;
+        }
+        .asideNav ul li.hover span.active {
+            display: block;
+            background: #c00;
+            color: #fff;
+        }
+        .asideNav ul li span.active {
+            display: block;
+            background: #fff;
+            color: #cc0000;
+        }
     </style>
 </head>
 <body>
 
+<div class="asideNav">
+    <ul>
+        <li class="hover">1F <span>服饰</span> </li>
+        <li>2F <span>美妆</span></li>
+        <li>3F <span>服务</span></li>
+        <li>4F <span>手机</span></li>
+        <li>5F <span>家电</span></li>
+        <li>6F <span>数码</span></li>
+        <li>7F <span>运动</span></li>
+        <li>8F <span>居家</span></li>
+        <li>9F <span>母婴</span></li>
+        <li>10F<span>食品</span></li>
+        <li>11F<span>图书</span></li>
+        <li class="top">Top</li>
+    </ul>
+</div>
 
 
 
-
-
+<div style="height: 3000px;"></div>
 <script src="js/jquery.js"></script>
 <script>
+    $(".asideNav ul li").not("top").hover(function(){
+        $(this).addClass("hover");
+    },function () {
+        $(this).removeClass("hover");
+    });
 
+    $(".asideNav ul li").not("top").click(function () {
+        $(".asideNav ul li").find("span").removeClass("active");
+        $(this).find("span").addClass("active");
+    });
 </script>
 </body>
 </html>
