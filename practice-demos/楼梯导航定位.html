@@ -128,6 +128,12 @@
     },function () {
         $(this).removeClass("hover");
     });
+
+    //top 跳转
+    $(".asideNav ul li.top").click(function () {
+        $("body").animate({scrollTop:0},500);
+    });
+
     var mark = 1;
     $(".asideNav ul li").not("top").click(function () {
         mark = 2;
@@ -167,6 +173,8 @@
             });
         }
     });
+
+
 
 </script>
 </body>
