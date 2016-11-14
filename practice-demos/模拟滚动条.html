@@ -97,7 +97,7 @@
         _height =  $(".scrollBar").height()- $(".scrollBtn").height();
 
         $(document).mousemove(function (e) {
-            newTop = e.clientY - _t - _h;//鼠标按下的位置距离scrollBar顶部的距离
+            newTop = e.clientY - _t - $(".scrollBar").offset().top;//鼠标按下的位置距离scrollBar顶部的距离
             if (newTop<0){
                 newTop = 0;
             }else if (newTop>_height){
