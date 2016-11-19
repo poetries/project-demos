@@ -25,10 +25,13 @@ body {
     letter-spacing: 1px;
     color: #fff;
 }
-#g-topbar .navbar-nav li a.hover{
-    color: #FCAC45;
-;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+    color:#fcac45 !important;
+    background-color:transparent;
 }
+
 #g-topbar .navbar-toggle{
     border-radius: 0;
 }
@@ -257,6 +260,9 @@ p.line {
 #works .cate-title .type li:last-child::after {
     content: "";
 }
+#works .cate-title .type a.active {
+    color: #fcac45 ;
+}
 .clearfix::after {
     content: "";
     display: block;
@@ -265,32 +271,21 @@ p.line {
     width: 0;
     visibility: hidden;
 }
-
-#works .cate-title .type li a.active {
-    color: #ff4a01;
-}
-.portfolio-item {
+.pro-item {
     margin-bottom: 30px;
 }
-.portfolio-item .hover-bg {
+.pro-item .hover-bg {
     height: 260px;
     overflow: hidden;
 }
-.portfolio-item{
-    margin-bottom:30px;
+.isotope-item {
+    margin-right: -1px;
 }
-.portfolio-item .hover-bg{
-    height:260px;
-    overflow:hidden;
-}
-.isotope-item{
-    margin-right:-1px;
-}
-.isotope .isotope-item{
-    transition-property:transform,opacity;
+.isotope .isotope-item {
+    transition-property: transform,opacity;
 }
 .isotope,.isotope .isotope-item{
-    transition-duration:0.8s;
+    transition-duration: 0.8s;
 }
 @media (max-width:768px){
     .content{
@@ -298,10 +293,10 @@ p.line {
     }
 }
 @media (max-width:603px){
-    #tf-menu.navbar-default{
+    #g-topbar.navbar-default{
         background-color:rgba(0,0,0,0.8);
     }
-    #tf-works ul.pull-right,#tf-works h4.pull-left{
+    #works ul.pull-right,#works h4.pull-left{
         margin-top:10px;
         text-align:center;
         float:none !important;

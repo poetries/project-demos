@@ -24,11 +24,11 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#g-home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#Profolio">Profolio</a></li>
+                <li><a href="#g-home" class="page-scroll">Home</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#team" class="page-scroll">Team</a></li>
+                <li><a href="#services" class="page-scroll">Services</a></li>
+                <li><a href="#works" class="page-scroll">Profolio</a></li>
                 <li><a href="javascript:void(0);">Testimonials</a></li>
                 <li><a href="javascript:void(0);">Contact</a></li>
             </ul>
@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="img/02.png" alt="">
+                <img src="img/02.png" alt="" class="img-responsive">
             </div>
             <div class="col-md-6">
                 <div class="section-title">
@@ -207,67 +207,83 @@
             <div class="cate-title clearfix">
                 <h4 class="pull-left">Filter by Type:</h4>
                 <ul class="pull-right list-unstyled type">
-                    <li><a href="javascript:;" data-filter="*">All</a></li>
+                    <li><a href="javascript:;" data-filter="*" class="active">All</a></li>
                     <li><a href="javascript:;" data-filter=".web">Web Design</a></li>
                     <li><a href="javascript:;" data-filter=".phote">Photograph</a></li>
                     <li><a href="javascript:;" data-filter=".app">Mobile App</a></li>
                     <li><a href="javascript:;" data-filter=".branding">Branding</a></li>
                 </ul>
-                <div class="row lightBox" >
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/01(1).jpg"  class="img-responsive" alt=""></a>
-                            </div>
+            </div>
+            <div class="row" id="lightBox">
+                <div class="col-md-3 col-sm-6 branding web">
+                    <div class="pro-item">
+                        <div class="hover-bg phote">
+                            <a href="">
+                                <img src="img/01(1).jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/02(2).jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 branding">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/02(2).jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/03(1).jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 web branding">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/03(1).jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/04(1).jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 branding web">
+                    <div class="pro-item">
+                        <div class="hover-bg phote">
+                            <a href="">
+                                <img src="img/04(1).jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/05.jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 app">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/05.jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/06.jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 phote web">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/06.jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/07.jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 app web">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/07.jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 branding web">
-                        <div class="portfolio-item">
-                            <div class="hover-bg">
-                                <a href=""><img src="img/08.jpg"  class="img-responsive" alt=""></a>
-                            </div>
+                </div>
+                <div class="col-md-3 col-sm-6 phote app">
+                    <div class="pro-item">
+                        <div class="hover-bg">
+                            <a href="">
+                                <img src="img/08.jpg" class="img-responsive" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
