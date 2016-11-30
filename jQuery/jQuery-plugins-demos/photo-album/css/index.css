@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #eee;
+}
+.photo_album {
+	position: relative;
+	background: #fff;
+	width: 850px;
+	overflow: hidden;
+	border: 1px #000 solid;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 3px;
+	
+}
+#gallery {
+	background: #888;
+	height: 630px;
+	overflow: hidden;
+	position: relative;
+	width: 800px;
+	border-radius: 10px;
+}

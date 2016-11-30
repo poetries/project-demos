@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>border-plugin-demo 对象级别插件开发</title>
+		<script src="js/vendor/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.border.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#test").border({width:"8px",line:"dotted",color:"blue"});
+				//如果不传入参数 将使用border默认定义的
+			})
+		</script>
+		<style type="text/css">
+			#test {
+				font-size: 20px;
+				width: 500px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="test">对象级别插件开发</div>
+	</body>
+</html>
