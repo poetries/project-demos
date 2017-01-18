@@ -1,0 +1,894 @@
+.container {
+  width: 100%;
+  min-width: 1200px;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* g-top start */
+
+#topbar div.top{
+	height: 100px;
+	position: relative;
+}
+#topbar a.adv{
+	display: block;
+	height: 100px;
+	background-image: url(../images/advbg.png);
+	text-align: center;
+}
+#topbar img.close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+#header .content{
+	width: 1000px;
+	height: 70px;
+	margin-top: 30px;
+}
+#header h1.logo{
+	float: left;
+	width: 220px;
+	height: 70px;
+}
+#header form.search{
+	position: relative;
+	width: 360px;
+	height: 70px;
+	float: left;
+}
+#header input.txt {
+	width: 310px;
+	height: 38px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-indent: 10px;
+
+}
+#header input.btn {
+	width: 42px;
+	height: 40px;
+	border: 0;
+	background-image: url("../images/ser_but.png");
+	position: absolute;
+	left: 312px;
+}
+
+#header .user{
+	width: 410px;
+	height: 70px;
+	float: right;
+	text-align: right;
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	line-height: 39px;
+}
+#header .user a{
+    text-decoration: none;
+}
+#header .user span a{
+	color:#ed145b;
+	margin: 0 10px;
+
+}
+#header .user a:hover{
+	color:#ed145b;
+}
+#header .user a i.iconfont{
+	color: #ED145B;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.gd{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#nav {
+	height:50px;
+	background-color: #000;
+}
+#nav ul{
+	width: 1200px;
+    height: 50px;
+    position: relative;
+}
+#nav ul li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+#nav ul li.first{
+	width: 190px;
+	background: #f42760;
+}
+#nav ul li.last{
+	display: none;
+	height: 50px;
+	width: 100px;
+	background: green;
+	position: absolute;
+	left:190px;
+	z-index:2;
+}
+#nav ul li a.items{
+    position: relative;
+	display: block;
+	padding: 0 30px;
+	color: #fff;
+	z-index: 10;
+
+}
+#nav ul li.first i.iconfont {
+	margin-right: 10px;
+	color: #fff;
+    font-size: 18px;
+}
+
+
+#banner {
+	height: 419px;
+	background-image: url(../images/timeGo.png);
+}
+#banner .PartCon{
+	position: relative;
+}
+
+#banner .leftMenu{
+	width: 190px;
+	height: 420px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+}
+
+#banner .leftMenu ol li .moreNav{
+	width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 190px;
+    top: -1px;
+    border: 1px solid #666;
+    display: none;
+}
+#banner .leftMenu ol li .border_top{
+	width:100%;
+	height:1px;
+	background:#666;
+	position:absolute;
+	left:0px;
+	top:-1px;
+	display:none;
+}
+#banner .leftMenu ol li .border_bottom{
+	width: 100%;
+    height: 1px;
+    background: #666;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    display: none;
+}
+#banner .leftMenu ol li .border_right{
+	height: 69px;
+    width: 1px;
+    background: #000;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    display: none;
+}
+#banner .leftMenu ol li.hover .moreNav,
+#banner .leftMenu ol li.hover .border_top,
+#banner .leftMenu ol li.hover .border_right,
+#banner .leftMenu ol li.hover .border_bottom {
+	display:block;
+}
+
+#banner ol li{
+	height: 69px;
+    width: 100%;
+    position: relative;
+    line-height: 30px;
+    text-align: left;
+    border-bottom: 1px solid #1c1c1c;
+}
+#banner ol li dl{
+	width: 100%;
+	height: 69px;
+}
+#banner ol li dl dt{
+    color: #f42760;
+    font-weight: 100;
+    text-indent: 15px;
+}
+#banner ol li dl dd{
+    padding: 0 0px 0 17px;
+    float: left;
+}
+#banner ol li dl dd a{
+	color: #97a3a3;
+    font-size: 12px;
+}
+#banner ol li dl dd a:hover{
+    color: #f42760;
+}
+#banner .flash{
+	width: 820px;
+	height: 419px;
+	float: left;
+	overflow: hidden;
+    margin-left: 190px;
+    position: relative;
+}
+#banner .flash ul.scroll{
+	width: 1000%;
+
+
+}
+#banner .flash ul.scroll li{
+	float: left;
+}
+#banner .flash ul.scroll li a img{
+	width: 820px;
+	height: 419px;
+}
+#banner .PartCon a.btn {
+	width: 71px;
+	height: 71px;
+	display: block;
+	position: absolute;
+	top: 175px;
+	z-index: 99;
+	display: none;
+}
+
+#banner .PartCon a.prev{
+    left: 152px;
+    background: url(../images/but.png) -71px 0px;
+}
+#banner .PartCon a.prev:hover{
+    background-position: 0px 0px;
+}
+
+#banner .PartCon a.next{
+	right: 160px;
+    background: url(../images/but.png) -71px -71px;
+}
+#banner .PartCon a.next:hover{
+    background-position: 0px -71px;
+}
+
+#banner ul.smallDot{
+	width:135px;
+	height: 20px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 527px;
+    padding-left: 23px;
+    bottom: -402px;
+    border-radius: 20px;
+	text-align: center;
+
+}
+
+#banner ul.smallDot li{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #666;
+	float: left;
+	margin-right: 10px;
+	margin-top:4px;
+	cursor: pointer;
+}
+
+#banner ul.smallDot li.active{
+	background: #f09;
+}
+
+
+#banner .news{
+	width: 190px;
+	height: 419px;
+	float: left;
+}
+
+#banner .news .newsOpacity{
+	width: 190px;
+    height: 419px;
+    background: #0a0202;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#banner .news .newsCon{
+	position: absolute;
+    width: 190px;
+    height: 419px;
+    top: 0px;
+    right: 0px;
+    color: #fff;
+}
+#banner .news .newsCon h3{
+	height: 43px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 43px;
+    text-indent: 20px;
+    font-family: 微软雅黑;
+    font-weight: 100;
+    background: rgb(48, 6, 12);
+}
+#banner .news .newsCon ul{
+	padding: 10px 10px 15px 10px;
+}
+#banner .news .newsCon ul li{
+	font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft Yahei";
+    line-height: 30px;
+}
+#banner .news .newsCon ul.news-bg li{
+    background: #692125;
+    margin-bottom: 5px;
+}
+#banner .news .newsCon ul li a{
+	color:#fff;
+}
+#banner .news .newsCon ul li span a,#banner .news .newsCon ul li span{
+	color:#cf2050;
+}
+
+#hot-recommend {
+	height: 170px;
+	background: #f1f1f1;
+
+
+}
+#hot-recommend .hotList{
+	width: 1140px;
+	height: 170px;
+	float: right;
+
+}
+#hot-recommend .hotList dl{
+	margin-top: 16px;
+	width: 269px;
+	height: 137px;
+	float: left;
+	margin-right: 16px;
+	background: #fff;
+	border-radius: 5px;
+}
+#hot-recommend .hotList dl dt{
+	float: left;
+	padding-top: 15px;
+}
+
+#hot-recommend .hotList dd {
+	font-size: 12px;
+	margin: 10px 10px 15px 15px;
+
+
+}
+#hot-recommend .hotList dd span{
+	color: #f5527a;
+	font-size: 18px;
+}
+#hot-recommend .hotList dd.buy a{
+	float: right;
+	margin-right: 50px;
+	width: 75px;
+	height: 23px;
+	line-height: 20px;
+	display: block;
+	background: #f5f5f5;
+	border: 1px solid #e6e6e6;
+	color: #797979;
+	text-align: center;
+	border-radius: 2px;
+}
+#hot-recommend .hotList dd.buy a:hover{
+	color: #f5527a;
+}
+
+#topEvent .topList {
+	margin-top: 40px;
+	height: 320px;
+}
+
+#topEvent .topList .topList-l{
+	float: left;
+	border: 1px solid #ddd;
+	height: 319px;
+	width: 959px;
+}
+#topEvent .topList .topList-l .topListCon{
+	position: relative;
+
+}
+#topEvent .topList .topList-l .topListCon .list-1{
+	z-index: 10;
+}
+#topEvent .topList .topList-l .topListCon .con{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#topEvent .topList .topList-l dl.first{
+	margin-left: 7px;
+}
+#topEvent .topList .topList-l dl{
+	float: left;
+	width: 230px;
+	height: 320px;
+	margin-right: 7px;
+
+
+}
+#topEvent .topList .topList-l p.title{
+	font-size: 16px;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#topEvent .topList .topList-l p a{
+	width: 220px;
+	height: 15px;
+	display: block;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 6px;
+    position: relative;
+    top: -5px;
+
+
+}
+#topEvent .topList .topList-l p a.active {
+	color: #e61f18;
+    border-top: 1px solid #e61f18;
+}
+
+
+#topEvent .topList .topList-l dl dd{
+	text-align: center;
+}
+#topEvent .topList .topList-l dl dd.price{
+	color: #e61f18;
+	margin-top: 5px;
+}
+#topEvent .topList .topList-l dl dt.img img{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+}
+#topEvent .topList .topList-r{
+	float: right;
+	width: 220px;
+	height: 320px;
+	border: 1px solid #ddd;
+}
+#topEvent .topList .topList-r p.ti a{
+	display: inline-block;
+	float: left;
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #ddd;
+
+}
+#topEvent .topList .topList-r p.ti a.active{
+	background: #fff;
+	color: #e61f18;
+    border-top: 1px solid #e61f18;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p{
+	text-align: center;
+
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.des{
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.time {
+	background: #ddd;
+	margin-left: 20px;
+	border-radius: 4px;
+	padding: 3px;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con p.time span{
+	color: #e61f18;
+	font-weight: bold;
+}
+#topEvent .topList .topList-r .topList-r-recommend {
+	position: relative;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con{
+	position: absolute;
+	top: 35px;
+	left: 0;
+}
+#topEvent .topList .topList-r .topList-r-recommend .top1{
+	z-index: 22;
+}
+#topEvent .topList .topList-r .topList-r-recommend .con img{
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+}
+.commCss {
+	margin-top: 45px;
+
+}
+.commCss .parCon{
+
+	height: 500px;
+	border: 1px solid #ddd;
+}
+.commCss h3{
+
+	height: 20px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.commCss .parCon .parL{
+	width: 300px;
+	height: 515px;
+	padding: 10px;
+	float: left;
+	position: relative;
+
+}
+.commCss .parCon .parL a.prev{
+	position: absolute;
+	top: 210px;
+	left: 4px;
+}
+.commCss .parCon .parL a.next{
+	position: absolute;
+	top: 210px;
+	right: 6px;
+}
+.commCss .parCon .parL .imgList {
+	width: 280px;
+	height: 480px;
+	margin-left: 10px;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+.commCss .parCon .parL .imgList p.desc{
+	font-size: 16px;
+	margin-top: 40px;
+	text-align: center;
+}
+.commCss .parCon .parL .imgList p.price{
+	margin-left: 95px;
+	margin-top: 40px;
+	border-radius: 5px;
+	padding: 8px;
+	display: inline-block;
+	border: 1px solid #ddd;
+}
+.commCss .parCon .parL .imgList p.price span{
+
+	font-weight: bold;
+	color: #e61f18;
+	font-size: 16px;
+
+}
+.commCss .parCon .parL .imgList ul{
+	width: 5000px;
+}
+.commCss .parCon .parL .imgList ul li{
+	float: left;
+	width: 280px;
+	height: 480px;
+}
+
+.commCss .parCon .parL .imgList ul li a img{
+	width: 260px;
+	height: 260px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.commCss .parCon .parM{
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-top: none;
+	border-bottom: none;
+	height: 500px;
+	width: 178px;
+	float: left;
+}
+.commCss .parCon .parM ul li{
+	line-height: 45px;
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.commCss .parCon .parM ul li img{
+	display: none;
+}
+.commCss .parCon .parM ul li.active img{
+	position: absolute;
+    top: 15px;
+    right: -15px;
+    display: block;
+}
+.commCss .parCon .parM ul li.active{
+    background: #efefef;
+    color: #ff4a01;
+}
+.commCss .parCon .parM ul li.last{
+	border-bottom: none;
+	cursor: default;
+}
+.commCss .parCon .parM ul li.last p.desc{
+	font-size: 12px;
+}
+.commCss .parCon .parM ul li.last p.hot{
+	display: inline-block;
+	padding: 8px;
+	color: #ff4a01;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 10px;
+	font-size: 14px;
+
+}
+.commCss .parCon .parM ul li.last a img{
+	width: 175px;
+	height: 150px;
+	display: block;
+	margin-top: 15px;
+}
+.commCss .parCon .parR{
+	float: left;
+	height: 535px;
+	width: 698px;
+	position: relative;
+}
+
+.commCss .parCon .parR ul li{
+	width: 200px;
+	height: 230px;
+	margin: 14px;
+	float: left;
+}
+.commCss .parCon .parR ul.con{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.commCss .parCon .parR ul li p {
+	text-align: center;
+}
+.commCss .parCon .parR ul li p span{
+	margin-left: 10px;
+	color: #ff4a01;
+
+}
+
+#flower .flower{
+	height: 550px;
+	margin-top: 60px;
+}
+
+#flower .flower ul.flowerNav {
+	height: 32px;
+
+}
+#flower .flower ul.flowerNav li{
+	width: 126px;
+	height: 32px;
+	position: relative;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+#flower .flower ul.flowerNav li.item{
+	float: right;
+}
+#flower .flower ul.flowerNav li.first{
+	width: 430px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+
+}
+#flower .flower ul.flowerNav li.active {
+
+	border:1px solid #f42760;
+}
+#flower .flower ul.flowerNav li.active span{
+	width: 126px;
+	height: 33px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: 1px solid #f42760;
+}
+
+
+#flower .flower .flowerCon {
+	border: 1px solid #ddd;
+	height: 510px;
+	margin-top: 1px;
+
+}
+#flower .flower .flowerCon .flowerL{
+	width: 480px;
+	height: 503px;
+	float: left;
+	margin-top: 5px;
+}
+
+#flower .flower .flowerCon .flowerL a.pic{
+	height: 350px;
+	width: 480px;
+	display: inline-block;
+}
+#flower .flower .flowerCon .flowerL li{
+	float: left;
+	width: 50px;
+	height: 150px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+	border-left: none;
+    border-bottom: none;
+    position: relative;
+}
+
+#flower .flower .flowerCon .flowerL li.active{
+	width: 274px
+}
+#flower .flower .flowerCon .flowerL li h3.active{
+	background: #f42760;
+    color: #fff;
+}
+#flower .flower .flowerCon .flowerL li p.active{
+	display: block;
+}
+.flower .flowerCon .flowerL li p.desc{
+	font-size: 12px;
+    width: 215px;
+    position: absolute;
+    top: 12px;
+    left: 53px;
+    line-height: 24px;
+    text-indent: 31px;
+    display: none;
+}
+#flower .flower .flowerCon .flowerL li h3{
+    font-size: 14px;
+    color: #000;
+    font-weight: 100;
+    width: 14px;
+    height: 110px;
+    padding: 40px 18px 0px;
+    border-left: none;
+}
+
+#flower .flower .flowerCon .flowerL ul.flowerType{
+	height: 150px;
+	width: 480px;
+
+}
+
+#flower .flower .flowerCon .flowerR{
+	width: 710px;
+	height: 503px;
+	float: right;
+	margin-top: 5px;
+	position: relative;
+}
+#flower .flower .flowerCon .flowerR ul.flowerList {
+	width: 710px;
+	height: 503px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#flower .flower .flowerCon .flowerR ul.flowerList li{
+    float: left;
+    width: 230px;
+    height: 240px;
+    margin: 3px;
+}
+#flower .flower .flowerCon .flowerR ul.flowerList li a.pic{
+	display: inline-block;
+	text-align: center;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+
+#flower .flower .flowerCon .flowerR ul.flowerList li p.price{
+	color: #fd0031;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+}
+#footer .footer img.pic{
+	display: block;
+	margin: 30px 0;
+}
+#footer .footerCon{
+	height: 175px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 30px;
+}
+#footer .footerCon dl{
+	width: 130px;
+	height: 170px;
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+
+}
+#footer .footerCon dl dt{
+	font-size: 16px;
+	font-style: 500px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+#footer .footerCon dl  dd a{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 10px;
+
+}
+#footer .footerCon dl.border-r {
+	border-right: 1px solid #ddd;
+}
+#footer .footerCon dl.contact {
+	float: right;
+}
+#footer .footerCon dl.contact dt{
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 10px;
+}
+#footer .footerCon dl.contact dd{
+	margin-bottom: 10px;
+}
+#footer p.copyright {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#footer p.copyright a{
+	color: #666;
+}
+#footer p.copyright span{
+	color: #fd0031;
+}
+#footer p.copyright a:hover{
+	color: #fd0031;
+}

@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+	background:#000;
+}
+#box{
+	width:300px;
+	height:500px;
+	border:10px  solid #fff;
+	margin:50px auto;
+	position:relative;
+	overflow:hidden;
+}
+#box div.title{
+	color:#fff;
+	font-size:24px;
+	font-family:"Microsoft Yahei";
+	text-align:center;
+	padding-top:100px;
+}
+#box .diff p{
+	line-height:30px;
+	width:200px;
+	color:#000;
+	font-size:16px;
+	font-family:"Microsoft Yahei";
+	text-align:center;
+	background:#fff;
+	margin:70px auto;
+	cursor:pointer;
+
+
+}
+#box .diff p.on{
+	background-color:#f6c;
+	color:#fff;
+}
+#box .plane{
+	position:absolute;
+	width:60px;
+	height:36px;
+}
+#box .plane{ width:60px; height:36px; position:absolute;}
+#box .bullet{ width:6px; height:22px; position:absolute;}
+#box .enemy{ width:23px; height:30px; position:absolute;}
+#box .score{
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:16px;
+	font-family:"Microsoft Yahei";
+	color:#fff;
+	font-weight:bold;
+	padding:10px;
+}
+
+#box .tip{
+	width:200px;
+	height:300px;
+	margin:100px 50px;
+	background:#fff;
+	
+
+}
+#box .tip p{
+	text-align:center;
+	font-family:"Microsoft Yahei";
+	font-weight:bold;
+	font-size:24px;
+	line-height:100px;
+	color:#f00;
+
+}
+#box .tip .showfen{
+	font-family:"Microsoft Yahei";
+	font-size:16px;
+	color:#000099;
+	margin:20px;
+	display:block;
+}
+#box .tip span.showfen #fen{
+	color:#ff0000;
+}
+#box .tip span.showfen #grate{
+	color:#006600;
+}
+#reStart{
+	text-align:center;
+	font-size:25px;
+	color:#000;
+	margin:50px auto;
+
+
+}
+#reStart:hover{
+	color:#ff00cc;
+	font-size:30px;
+	font-weight:bold;
+	cursor:pointer;
+
+}
