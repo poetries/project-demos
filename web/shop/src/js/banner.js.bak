@@ -1,0 +1,58 @@
+
+//轮播图
+var flash = document.querySelector("#flash");
+var imgUl = document.querySelector("#imgBox");
+var btns = document.querySelector("#smallDot").querySelectorAll("li");
+var len = btns.length;
+var lenImg = imgUl.querySelectorAll("li").length;
+var index = 0; //控制img的索引
+var cindex = 0;//控制按钮的索引
+var timer = null;
+
+    function play(){
+      for (var i=0;i<len;i++) {
+          (function(index){
+            btns[index].onmouseover = function(){
+              for (var j=0;j<len;j++){
+                btns[j].className = "";
+            }
+              cindex = index;//保持索引同步
+              animateSpeed(imgUl,{"left":-820*index});
+              this.className = "active";
+            }
+          })(i);
+      }
+    }
+    play();
+
+    function autoPlay(){
+      index++;
+      cindex++;
+      cindex %=len;//限制长度
+      for (var j=0;j<len;j++){
+        btns[j].className = "";
+      }
+      animateSpeed(imgUl,{"left":-820*index},function(){
+
+        if(index == lenImg-1){
+          this.style.left = 0;
+          index = 0;
+        }
+      });
+      btns[cindex].className = "active";
+    }
+    timer = setInterval(autoPlay,2000);
+    flash.onmouseover = function(){
+      clearInterval(timer);
+    }
+    flash.onmouseout = function(){
+      timer = setInterval(autoPlay,2000);
+    }
+
+
+    //按扭显示隐藏
+    // $("#banner").hover(function(){
+    // 	$(this).find("a.btn").fadeIn(200);
+    // },function(){
+    // 	$(this).find("a.btn").fadeOut(200);
+    // });

@@ -232,8 +232,8 @@
 }
 #banner .flash ul.scroll{
 	width: 1000%;
-
-
+  position: absolute;
+  left: 0;
 }
 #banner .flash ul.scroll li{
 	float: left;
