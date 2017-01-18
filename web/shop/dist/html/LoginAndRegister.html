@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		</div>
-	</div>
+
 
 	<!-- Nav start -->
 	<div class="container" id="nav">
@@ -67,10 +67,15 @@
 				</div>
 				<div class="Reg con">
 					<form action="">
-						<p><span>用户名:</span><input type="text"  name="" id="" value="" class="txt"/><label for="">用户名是邮数字、字母、下划线组成</label></p>
-						<p><span>邮箱:</span><input type="text"  name="" id="" value="" class="txt"/><label for=""> 请输入正确的邮箱地址</label></p>
-						<p><span>密码:</span><input type="password"  name="" id="" value="" class="txt"/><label for="">密码是6-16邮数字、字母、下划线</label></p>
-						<p><span>确认密码:</span><input type="password"  name="" id="" value="" class="txt"/><label for="">两次密码要一样</label></p>
+						<p><span>用户名:</span><input type="text"  name="" id="" value="" class="txt"/><label for=""><i class="xh">*</i>用户名是邮数字、字母、下划线组成</label></p>
+						<p><span>邮箱:</span><input type="text"  name="" id="" value="" class="txt"/><label for=""> <i class="xh">*</i>请输入正确的邮箱地址</label></p>
+						<p><span>密码:</span><input type="password"  name="" id="pwd" maxlength="16" class="txt"/><label for="" id="pwd_tips" ><i class="xh">*</i>密码是6-16邮数字、字母、下划线</label></p>
+						<p class="pwdColor">
+								<span class="c1"></span>
+								<span class="c2"></span>
+								<span class="c3"></span>
+						</p>
+						<p><span>确认密码:</span><input type="password"  name="" id="repwd" value="" class="txt"/><i class="xh last">*</i><label for="" id="repwd_tips" class="repwd_tips">两次密码要一样</label></p>
 						<p class="txt"><input type="submit" value="注册新用户" class="btn"/></p>
 					</form>
 				</div>

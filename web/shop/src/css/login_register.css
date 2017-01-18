@@ -1,4 +1,7 @@
 
+input{
+	padding-left: 10px;
+}
 #login .content{
 	width: 1000px;
 	height: 600px;
@@ -30,7 +33,7 @@
 	margin-top: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
-	
+
 }
 #login .content .LgRegCon .Lg{
 	display: block;
@@ -38,7 +41,7 @@
 #login .content .LgRegCon .Reg{
 	display: none;
 }
-#login .content .LgRegCon .con p{
+ .con p{
 	margin-top: 20px;
 	margin-left: 20px;
 }
@@ -68,9 +71,12 @@
 #login .content .LgRegCon .Lg p.txt a{
 	line-height: 20px;
 }
-#login .content .LgRegCon .Lg p.ch label{
+.content .LgRegCon .Lg p.ch label{
 	margin-left: 10px;
-	
+
+}
+#login .content .LgRegCon .con {
+	position: relative;
 }
 #login .content .LgRegCon .con input.txt{
 	width: 300px;
@@ -78,7 +84,7 @@
 	border: 1px solid #DDDDDD;
 	border-radius: 3px;
 }
-#login .content .LgRegCon .con span{
+.con span{
 	display: inline-block;
 	width: 80px;
 	height: 19px;
@@ -91,9 +97,57 @@
 	font-size: 12px;
 	margin-left: 101px;
 }
-#login .content .LgRegCon .Reg label{
-	margin-left: 10px;
-	text-align: left;
+.content .LgRegCon .Reg label{
+		margin-left: 10px;
+		text-align: left;
     display: inline-block;
     font-size: 12px;
+}
+
+/* 密码强度改变的样式 */
+
+p.pwdColor span.co1 {
+	background:#f00;
+}
+p.pwdColor span.co2 {
+	background:#00ff66;
+}
+
+p.pwdColor span.co3 {
+	background:#0033cc;
+}
+p.pwdColor {
+	position: absolute;
+	top: 166px;
+	left: 77px;
+	width: 271px;
+	height: 5px;
+	margin-top: 6px;
+	margin-left: 53px;
+}
+.pwdColor span {
+	float: left;
+	margin-right: 10px;
+	background: #ccc;
+	height: 5px;
+}
+.tips{
+	color:red;
+}
+i.xh {
+	width: 3px;
+	height: 2px;
+	display: inline-block;
+	margin-right: 7px;
+	font-size: 12px;
+	color:red;
+}
+i.xh.last {
+	padding-left: 10px;
+}
+.repwd_tips{
+		color:red;
+}
+#repwd_tips {
+	display: none;
 }
