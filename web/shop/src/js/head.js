@@ -16,9 +16,9 @@ $("#nav ul li.item").not(".first,.last").hover(function(){
 
 //吸顶盒导航
 /*浏览器窗品的滚动事件 scroll*/
-$(window).scroll(function(){
-	var _top = $(window).scrollTop();//获取浏览器窗口滚动高度
-	var _height = $(".topMain").height();
-	//document.title=_top;
-	_top>_height?$("#nav").addClass("gd"):$("#nav").removeClass("gd");
-});
+// $(window).scroll(function(){
+// 	var _top = $(window).scrollTop();//获取浏览器窗口滚动高度
+// 	var _height = $(".topMain").height();
+// 	//document.title=_top;
+// 	_top>_height?$("#nav").addClass("gd"):$("#nav").removeClass("gd");
+// });
