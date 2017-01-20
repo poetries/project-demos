@@ -1,9 +1,9 @@
 $(function(){
 		game.init();
 	});
-			
+
 	var game = {
-		
+
 
 		box:$("#box"),
 		init:function(){
@@ -11,14 +11,14 @@ $(function(){
 
 			var $title = $("<div>");
 			$title.addClass("title");
-			$title.html("打飞机 v1.0版本");
+			$title.html("飞机战斗机游戏");
 			this.box.append($title);
-			
+
 			var $diff = $("<div>");
 			$diff.addClass("diff");
 			$diff.append("<p>简单模式</p><p>大神附体</p><p>困难模式</p>");
 			this.box.append($diff);
-			
+
 			$("#box .diff p").hover(function(){
 				$(this).addClass("on");
 			},function(){
@@ -37,7 +37,7 @@ $(function(){
 			});
 
 		},
-		
+
 		//游戏困难的等级
 
 		diffGrate:[
@@ -58,17 +58,17 @@ $(function(){
 			var $plane = $('<img src="img/plane.png" />');
 			$plane.addClass("plane");
 			game.box.append($plane);
-			
+
 			var cssTop = game.box.offset().top +10 + $('img.plane').height()/2;
 			var cssLeft = game.box.offset().left +10 + $('img.plane').width()/2;
-			
+
 			var topMax = game.box.height() - $plane.height();
 			var leftMin = -$plane.width()/2;
 			var leftMax = game.box.width() - $plane.width()/2;
 
 			$plane.css({
 				//当前飞机的垂直位置=当前鼠标距离浏览器的高度-盒子box距离浏览器顶部的距离-border-top - 飞机的height/2
-				top: ev.y - cssTop  + 'px', 
+				top: ev.y - cssTop  + 'px',
 				//当前飞机的水平位置=当前鼠标距离浏览器的宽度-盒子box距离浏览器左侧的距离-border-left - 飞机的width/2
 				left: ev.x - cssLeft +'px'
 			});
@@ -78,7 +78,7 @@ $(function(){
 
 				var top = e.clientY- cssTop;
 				var left = e.clientX - cssLeft;
-				
+
 				if (top<0)
 				{
 					top = 0;
@@ -143,16 +143,16 @@ $(function(){
 					var bT = $(this).position().top;//子弹距离box的高度
 					var bL = $(this).position().left;//子弹距离左侧宽度
 					var bR = $(this).position().left + $(this).width();//子弹的右侧距离box距离
-					
+
 					/**
 						碰撞检测条件：
-							子弹的顶部小于敌军的底部 
+							子弹的顶部小于敌军的底部
 							子弹的底部大于敌军的顶部
-							子弹的左侧小于敌军的右侧 
+							子弹的左侧小于敌军的右侧
 							子弹的右侧大于敌军的左侧
 					**/
 
-					if (bT < eB && bB > eT && bL < eR && bR > eL)  
+					if (bT < eB && bB > eT && bL < eR && bR > eL)
 					{
 						//alert("撞到了!!");
 						$(this).remove(); //子弹消失
@@ -174,10 +174,10 @@ $(function(){
 
 					//飞机检测碰撞
 
-					if (pT+10 < eB && pB > eT && pL+10 < eR && pR-10 > eL)  
+					if (pT+10 < eB && pB > eT && pL+10 < eR && pR-10 > eL)
 					{
 						//alert("飞机撞飞了");
-						
+
 						$enemy.attr("src","img/boom.png"); //敌军爆炸
 						clearInterval($enemy.bTime);//清除定时器
 						setTimeout(function(){$enemy.remove()},500);
@@ -186,7 +186,7 @@ $(function(){
 						clearInterval(game.plane.bTime); //子弹不发射
 						clearInterval(game.plane.eTime); //敌军不在出现
 						$(document).unbind('mousemove');
-						
+
 						//游戏结束
 
 						game.over();
@@ -209,10 +209,10 @@ $(function(){
 				$grate = "你好666666666";
 			}
 			game.box.empty();
-			var $tip = $('<div class="tip"><p>Game Over</p><span class="showfen">游戏分数：&nbsp;<span id="fen"></span>分<br />获得称号:&nbsp;<span id="grate"></span></span></div>'); 
+			var $tip = $('<div class="tip"><p>Game Over</p><span class="showfen">游戏分数：&nbsp;<span id="fen"></span>分<br />获得称号:&nbsp;<span id="grate"></span></span></div>');
 			var $reStart = $('<div id="reStart">重新开始</div>');
 			$tip.append($reStart);
-			
+
 			game.box.append($tip);
 
 			$("#fen").html($score);
